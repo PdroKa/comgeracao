@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
     name: 'Adirai Curitiba 2K25',
     description: 'Retiro de 2 dias com momentos de adoração, oração e unidade. Garanta seu ingresso na pré-venda e viva essa experiência única com Deus.',
     url: 'https://comgeracao.com.br/adoraicuritiba',
-    ogImage: 'Adirai Curitiba 2K25',
+    ogImage: 'https://www.adorai.com/og-image.png',
     links: {
         instagram: "https://instagram.com/adorai.curitiba",
         whatsapp: "https://wa.me/5541999999999",
