@@ -9,7 +9,7 @@ import { FooterAdoraiCwb } from "@/components/landingPage/footer";
 
 export default function AdoraiCuritiba() {
     return (
-        <div>
+        <div >
             <Header />
             <CallToAction />
             <About />

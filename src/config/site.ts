@@ -13,7 +13,7 @@ type SiteConfig = {
 }
 
 export const siteConfig: SiteConfig = {
-    name: 'Adirai Curitiba 2K25',
+    name: 'Adorai Curitiba | 12 de Outubro',
     description: 'Retiro de 2 dias com momentos de adoração, oração e unidade. Garanta seu ingresso na pré-venda e viva essa experiência única com Deus.',
     url: 'https://comgeracao.com.br/adoraicuritiba',
     ogImage: 'https://www.adorai.com/og-image.png',

@@ -11,16 +11,16 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  /* config options here */
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/adoraicuritiba',
+        permanent: true
+      }
+    ]
+  }
 };
 
 export default nextConfig;
-/* config options here */
-// async redirects() {
-//   return [
-//     {
-//       source: '/',
-//       destination: '/#',
-//       permanent: true
-//     }
-//   ]
-// }

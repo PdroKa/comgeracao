@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { navigationItems } from "@/config/nativation";
 import { Menu } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Header() {
     return (
@@ -29,17 +30,17 @@ export function Header() {
                 {/* Logo centralizada */}
                 <div className="absolute left-1/2 transform -translate-x-1/2">
                     <a href="#inicio" aria-label="Ir para o topo da página">
-                        <Image width={80} height={80} src="/Logo-remove-240.png" alt="Logo, Adorai Curitiba" priority />
+                        <Image width={70} height={70} src="/Logo-remove-240.png" alt="Logo, Adorai Curitiba" priority />
                     </a>
                 </div>
 
                 {/* Botão Desktop */}
                 <div className="hidden md:flex items-center gap-4">
-                    <a href="#princing">
+                    <Link href="#princing">
                         <Button variant="ghost" className="text-sm font-medium hover:text-primary">
                             Ingresso
                         </Button>
-                    </a>
+                    </Link>
                 </div>
 
                 {/* Menu Mobile */}

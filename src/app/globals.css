@@ -4,42 +4,17 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-    --color-background-primary: red;
-    --color-background-secondary: red;
-    --color-background-tertiary: red;
-
-    --color-content-heading: red;
-    --color-content-body: red;
-    --color-content-headline: red;
-    --color-content-placeholder: red;
-
-    --color-accent-purple: red;
-    --color-accent-blue: red;
-    --color-accent-pink: red;
-    --color-accent-yellow: red;
-    --color-accent-green: red;
-
-    --color-accent-purple-dark: red;
-    --color-accent-blue-dark: red;
-    --color-accent-green-dark: red;
-    --color-accent-pink-dark: red;
-    --color-accent-yellow-dark: red;
-
-    --color-border-primary: red;
-    --color-border-secondary: red;
-    --color-border-tertiary: red;
-
-    --color-transparent: transparent;
 }
 
 .bg-heroSection {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 60%, var(--color-background) 100%), url('/_MG_0139.jpg');
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 10%, var(--color-background) 100%), url('/og-image.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 @theme inline {
+    --color-transparent: transparent;
     --radius-sm: calc(var(--radius) - 4px);
     --radius-md: calc(var(--radius) - 2px);
     --radius-lg: var(--radius);

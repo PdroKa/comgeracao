@@ -85,7 +85,7 @@ export function PrincingSection() {
 
                             <div className="mt-10 flex flex-wrap items-center justify-between gap-6">
                                 <img
-                                    src="/patrocinador-logo.png"
+                                    src="/#"
                                     alt="Logo dos patrocinadores do evento Adorai Curitiba"
                                     className="h-10 invert"
                                 />
