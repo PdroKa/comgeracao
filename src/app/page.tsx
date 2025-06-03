@@ -1,16 +1,9 @@
-import Image from "next/image";
+import { SpinnerLoading } from "@/components/ui/spinner";
 
 export default function Home() {
   return (
-    <div className="h-screen max-w-7xl mx-auto items-center">
-      <a href="/adoraicuritiba">
-        <Image
-          src="/Logo-UpserScale.png"
-          alt="Adorai Curitiba Logo"
-          width="100"
-          height="45"
-        />
-      </a>
+    <div className="w-full h-screen flex justify-center items-center">
+      <SpinnerLoading />
     </div>
   );
 }

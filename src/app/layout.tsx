@@ -1,4 +1,6 @@
 import "./globals.css";
+
+import { SmoothScrollToHash } from "@/lib/SmoothScrollToHash";
 import { Roboto } from "next/font/google";
 
 const roboto = Roboto({
@@ -14,7 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={`${roboto.className} bg-background-primary text-white antialiased`}>
+      <body className={`${roboto.className} bg-background text-white antialiased scroll-smooth`}>
+        <SmoothScrollToHash />
         {children}
       </body>
     </html>

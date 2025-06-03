@@ -1,5 +1,3 @@
-import { SquareCheck } from "lucide-react";
-
 export function HeroSection() {
     return (
         <div className="h-1/2">

@@ -1,15 +1,23 @@
-import { Header } from "../components/landingPage/header";
-import { HeroSection } from "../components/landingPage/hero";
-import { VideoComBotao } from "../components/landingPage/videoComBotao";
+import { Header } from "@/components/landingPage/header";
+import { CallToAction } from "@/components/landingPage/calltoAction";
+import { About } from "@/components/landingPage/sobre";
+import { TeamSection } from "@/components/landingPage/teamSection";
+import { PrincingSection } from "@/components/landingPage/princing";
+import { FAQ } from "@/components/landingPage/FAQ";
+import { Map } from "@/components/landingPage/map";
+import { FooterAdoraiCwb } from "@/components/landingPage/footer";
 
 export default function AdoraiCuritiba() {
     return (
-        <div className="h-screen bg-cover bg-center min-h-screen-lg  bg-custom max-w-7xl mx-auto items-center">
+        <div>
             <Header />
-            <HeroSection />
-            <VideoComBotao />
-            {/* <Princing /> */}
-            {/* <FAQ /> */}
+            <CallToAction />
+            <About />
+            <TeamSection />
+            <PrincingSection />
+            <FAQ />
+            <Map />
+            <FooterAdoraiCwb />
         </div>
     );
 }
