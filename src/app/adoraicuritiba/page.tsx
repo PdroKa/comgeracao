@@ -1,5 +1,5 @@
 import { Header } from "@/components/landingPage/header";
-import { CallToAction } from "@/components/landingPage/calltoAction";
+import { CallToAction, HeroSection } from "@/components/landingPage/calltoAction";
 import { About } from "@/components/landingPage/sobre";
 import { TeamSection } from "@/components/landingPage/teamSection";
 import { PrincingSection } from "@/components/landingPage/princing";
