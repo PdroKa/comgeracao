@@ -13,7 +13,7 @@ export function CallToAction() {
                 layout="fill"
                 objectFit="cover"
                 priority // importante para capa
-                quality={75} // pode ajustar se quiser mais leveza
+                quality={50} // pode ajustar se quiser mais leveza
                 className="z-0"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-white/0 to-background z-10" />

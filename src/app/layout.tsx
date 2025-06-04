@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     url: siteConfig.url,
-    siteName: "Adorai Curitiba",
+    siteName: siteConfig.name,
     images: [
       {
         url: siteConfig.ogImage,
@@ -54,9 +54,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <head>
-        <link rel="prefetch" as="document" href="https://checkout.einscricao.app//?event_id=100725&apiUrl=https://www.e-inscricao.com&msApiUrl=https://ei-pay.e-inscricao.com&LOG=false&receiptUrl=https://recibo.e-inscricao.tech&apiParticipantsUrl=https://participants.e-inscricao.com&hostUrl=https%3A%2F%2Fwww.e-inscricao.com%2Fcolodedeus%2Fgeracaoatmk25&themeColorPrimary=%23010101&themeColorSecondary=%23ddbb53&themeLogo=https%3A%2F%2Fi.ibb.co%2F0RQVFWvq%2FLogo-remove-500.png" />
-      </head>
       <body className={`${roboto.className} bg-background text-white antialiased scroll-smooth`}>
         <SmoothScrollToHash />
         {children}

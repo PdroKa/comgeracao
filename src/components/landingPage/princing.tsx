@@ -13,6 +13,8 @@ const beneficiosAdorai = [
     '🎁 Bônus: Acesso ao Pré-Adorai no Hard Rock (para os 200 primeiros)',
 ]
 export function PrincingSection() {
+
+    
     return (
         <section id="princing" className="relative bg-background py-16 md:py-32">
             <div className="mx-auto max-w-6xl px-6">
@@ -56,11 +58,11 @@ export function PrincingSection() {
                                     {DataPrincing.preco.incluso}
                                 </p>
                             </div>
-                            <Link href={'/adoraicuritiba/Checkout'}>
-                                <Button className="w-full md:w-auto text-base font-semibold">
+                            <Button disabled className="w-full md:w-auto text-base font-semibold">
+                                <Link href={'/adoraicuritiba/checkout'} className='w-full'>
                                     Garantir minha vaga agora
-                                </Button>
-                            </Link>
+                                </Link>
+                            </Button>
 
                             <p className="mt-10 text-sm text-muted-foreground leading-relaxed">
                                 Acesso completo ao evento, pregações, momentos de louvor, oração, espaços de adoração e muito mais.
