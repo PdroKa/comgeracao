@@ -1,6 +1,7 @@
 import { ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
+import { LiteYoutube } from '../ui/video'
 
 export function CallToAction() {
     return (
@@ -22,13 +23,7 @@ export function CallToAction() {
                 </div>
 
                 <div>
-                    <iframe
-                        className="mx-auto w-full aspect-video max-w-4xl h-72 rounded-lg sm:h-96 shadow-xl"
-                        src="https://www.youtube.com/embed/kyiEboFeDd4?si=qi6G5OoDcPoNWUC6"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        loading="lazy"
-                    ></iframe>
+                    <LiteYoutube />
                 </div>
 
                 <div className="flex items-start justify-start flex-col-reverse space-y-4 sm:flex-row sm:items-center sm:justify-center sm:space-y-0">
