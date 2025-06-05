@@ -8,12 +8,12 @@ export function CallToAction() {
     return (
         <section id='inicio' className='scroll-mt-40 relative w-full h-[100vh] overflow-hidden '>
             <Image
-                src="/og-image.jpg"
+                src="/og-image.avif"
                 alt="Imagem de fundo Hero"
                 layout="fill"
                 objectFit="cover"
                 priority // importante para capa
-                quality={50} // pode ajustar se quiser mais leveza
+                quality={70} // pode ajustar se quiser mais leveza
                 className="z-0"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-white/0 to-background z-10" />
