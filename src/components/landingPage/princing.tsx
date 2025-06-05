@@ -57,11 +57,11 @@ export function PrincingSection() {
                                 </p>
                             </div>
 
-                            <Button className="w-full md:w-auto text-base font-semibold">
-                                <Link href="/adoraicuritiba/checkout">
+                            <Link href="/adoraicuritiba/checkout">
+                                <Button className="w-full md:w-auto text-base font-semibold">
                                     Garantir minha vaga agora
-                                </Link>
-                            </Button>
+                                </Button>
+                            </Link>
 
                             <p className="mt-10 text-sm text-muted-foreground leading-relaxed">
                                 Acesso completo ao evento: pregações, momentos de louvor, oração, espaços de adoração e muito mais.
