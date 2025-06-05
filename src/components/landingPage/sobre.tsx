@@ -4,10 +4,10 @@ export function About() {
     return (
         <section
             id="sobre"
-            className="bg-foreground py-16 lg:py-24 scroll-mt-20"
+            className="bg-foreground py-16 lg:py-24 scroll-mt-20 relative"
             aria-labelledby="about-title"
         >
-            <div className="max-w-6xl mx-auto px-4 lg:px-6">
+            <div className="max-w-4xl mx-auto px-4 lg:px-6">
                 <div className="grid gap-4 items-center">
                     {/* Texto */}
                     <div>

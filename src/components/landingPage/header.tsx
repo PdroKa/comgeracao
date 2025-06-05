@@ -8,7 +8,7 @@ export function Header() {
     return (
         <header className="sticky top-0 z-50 bg-header backdrop-blur-md w-full py-1 sm:py-3 px-4 sm:px-6 lg:px-8">
             <nav
-                className="max-w-6xl mx-auto flex items-center justify-between py-4"
+                className="max-w-4xl mx-auto flex items-center justify-between py-4"
                 aria-label="Navegação principal"
             >
                 {/* Menu Desktop */}

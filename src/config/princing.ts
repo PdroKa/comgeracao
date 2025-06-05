@@ -1,6 +1,5 @@
 type Princing = {
     title: string
-    description: string
     lote: string
     preco: {
         incluso: string
@@ -13,7 +12,6 @@ type Princing = {
 
 export const DataPrincing: Princing = {
     title: "Ingresso Adorai Curitiba",
-    description: "ingresso + Camiseta oficial + Ebook Pentecostes",
     lote: "Lote de pré-venda — Vagas limitadas",
     preco: {
         incluso: 'Valor por pessoa — inclui camiseta + ebook',

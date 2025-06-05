@@ -1,16 +1,15 @@
 import { navigationItems } from '@/config/nativation'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export function FooterAdoraiCwb() {
     return (
         <footer className="py-16 md:py-32 scroll-mt-24">
-            <div className="mx-auto max-w-5xl px-6">
-                <Link
-                    href="/"
-                    aria-label="go home"
-                    className="mx-auto block size-fit">
-                    <p>LOGO</p>
-                </Link>
+            <div className="mx-auto max-w-4xl px-6">
+                {/* LOGO */}
+                <a className="mx-auto block size-fit" href="#inicio" aria-label="Ir para o topo da página">
+                    <Image width={65} height={65} src="/Logo-remove-240.png" alt="Logo, Adorai Curitiba" priority />
+                </a>
 
                 <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
                     {navigationItems.map((link, index) => (
@@ -22,7 +21,7 @@ export function FooterAdoraiCwb() {
                         </Link>
                     ))}
                 </div>
-                <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
+                <div className="my-8 flex  flex-wrap justify-center gap-6 text-sm">
                     <Link
                         href="#"
                         target="_blank"

@@ -9,9 +9,9 @@ import { FooterAdoraiCwb } from "@/components/landingPage/footer";
 
 export default function AdoraiCuritiba() {
     return (
-        <div >
+        <div id="inicio" className="scroll-mt-36">
             <Header />
-            <CallToAction />
+            <HeroSection />
             <About />
             <TeamSection />
             <PrincingSection />
