@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export function Header() {
     return (
-        <header className="sticky top-0 z-50 bg-header backdrop-blur-md w-full py-1 sm:py-3 px-4 sm:px-6 lg:px-8">
+        <header className="sticky top-0 z-50 bg-header backdrop-blur-md w-full py-2 sm:py-3 px-4 md:px-0">
             <nav
                 className="max-w-4xl mx-auto flex items-center justify-between py-4"
                 aria-label="Navegação principal"
@@ -34,7 +34,7 @@ export function Header() {
                 </div>
 
                 {/* Botão Desktop */}
-                <div className="hidden md:flex items-center gap-4">
+                <div className="hidden md:flex items-center">
                     <a href="#princing">
                         <Button variant="ghost" className="text-sm font-medium hover:text-primary">
                             Ingresso

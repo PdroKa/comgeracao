@@ -21,7 +21,7 @@ export function PrincingSection() {
             className="relative bg-background py-16 md:py-32 scroll-mt-20"
             aria-labelledby="princing-heading"
         >
-            <div className="mx-auto max-w-4xl px-6">
+            <div className="mx-auto max-w-4xl px-4 md:px-0">
 
                 {/* 🔥 Header com SEO */}
                 <header className="mb-10 text-start sm:text-center">
@@ -46,9 +46,12 @@ export function PrincingSection() {
 
                         {/* 🔥 Coluna esquerda */}
                         <div className="text-center md:pr-12">
-                            <div className="inline-block bg-accent-foreground text-white text-xs px-4 py-1 rounded-full mb-4 animate-pulse">
-                                {DataPrincing.badge}
-                            </div>
+                            {DataPrincing.badge &&
+                                <div className="inline-block bg-accent-foreground text-white text-xs px-4 py-1 rounded-full mb-4 animate-pulse">
+                                    {DataPrincing.badge}
+                                </div>
+                            }
+
 
                             <h3 className="text-2xl font-semibold">{DataPrincing.title}</h3>
                             <p className="mt-2 text-base text-muted-foreground">{DataPrincing.lote}</p>

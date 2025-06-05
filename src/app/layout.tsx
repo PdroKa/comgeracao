@@ -4,7 +4,6 @@ import type { Metadata } from "next";
 import { SmoothScrollToHash } from "@/lib/SmoothScrollToHash";
 import { Roboto } from "next/font/google";
 import { siteConfig } from "@/config/site";
-import { Head } from "next/document";
 
 
 const roboto = Roboto({
@@ -29,8 +28,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: siteConfig.ogImage,
-        width: 1980,
-        height: 1320,
+        width: 1200,
+        height: 630,
         alt: `${siteConfig.title} - ${siteConfig.name} `,
       },
 

@@ -13,12 +13,12 @@ export const navigationItems: NavigationItem[] = [
         href: '#sobre',
     },
     {
-        title: 'FAQ',
-        href: '#faq',
-    },
-    {
         title: 'Participação',
         href: '#team',
+    },
+    {
+        title: 'FAQ',
+        href: '#faq',
     },
     {
         title: 'Local',

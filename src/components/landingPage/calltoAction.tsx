@@ -69,7 +69,7 @@ export function HeroSection() {
             />
             <div className="absolute inset-0 bg-gradient-to-b from-white/0 to-background z-10" />
 
-            <div className="relative z-20 py-8 px-4 mx-auto max-w-4xl lg:py-12 grid lg:grid-cols-1 gap-8 lg:gap-9">
+            <div className="relative z-20 py-8 px-4 md:px-0 mx-auto max-w-4xl lg:py-12 grid lg:grid-cols-1 gap-8 lg:gap-9">
                 <div className="flex flex-col justify-center items-center">
                     <h1 className="mb-1 text-center text-3xl sm:text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">
                         Adorai Curitiba 2K25
@@ -95,13 +95,13 @@ export function HeroSection() {
                             Saiba mais
                         </Button>
                     </a>
-                    <Link href="#princing">
+                    <a href="#princing">
                         <Button className="inline-flex w-full justify-center items-center py-3 px-5 text-base font-medium text-center text-black rounded-lg 
                         bg-primary hover:bg-primary/80 transition-colors">
                             Aproveitar Pré-venda
                             <ArrowRight />
                         </Button>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </section>

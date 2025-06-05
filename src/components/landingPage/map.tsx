@@ -12,8 +12,7 @@ export function Map() {
                 >
                     Local
                 </h2>
-                <p className="mt-4 text-lg text-muted-foreground">
-                    <span className="text-primary">Colégio Marista Santa Maria<br /></span>
+                <p className="mt-4 text-sm text-muted-foreground">
                     R. Prof. Joaquim de Matos Barreto, 98 - São Lourenço, Curitiba - PR
                 </p>
             </header>
