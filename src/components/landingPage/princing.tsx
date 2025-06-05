@@ -3,15 +3,6 @@ import { DataPrincing } from '@/config/princing'
 import { Check } from 'lucide-react'
 import Link from 'next/link'
 
-const beneficiosAdorai = [
-    'Ingresso para os 2 dias do retiro',
-    'Camiseta oficial — “Verdadeiros Adoradores”',
-    'Ebook digital exclusivo — “Pentecostes”',
-    'Santa missa nos 2 dias',
-    'Pregações e ministrações impactantes',
-    ' Espaço de adoração',
-    '🎁 Bônus: Acesso ao Pré-Adorai no Hard Rock (para os 200 primeiros)',
-]
 export function PrincingSection() {
 
 
@@ -66,7 +57,7 @@ export function PrincingSection() {
                                 </p>
                             </div>
 
-                            <Button disabled className="w-full md:w-auto text-base font-semibold">
+                            <Button className="w-full md:w-auto text-base font-semibold">
                                 <Link href="/adoraicuritiba/checkout">
                                     Garantir minha vaga agora
                                 </Link>
@@ -92,16 +83,7 @@ export function PrincingSection() {
                             <p className="mt-6 text-sm text-muted-foreground">
                                 Participe de um dos maiores eventos católicos do Brasil. Junte-se a milhares de adoradores em um mover profético e transformador.
                             </p>
-
                             <div className="mt-10 flex flex-wrap items-center gap-4">
-                                <img
-                                    src="/patrocinador.png"
-                                    alt="Logo dos patrocinadores do Adorai Curitiba"
-                                    className="h-10 dark:invert"
-                                />
-                                <p className="text-sm text-muted-foreground">
-                                    Apoio oficial: Patrocinadores
-                                </p>
                             </div>
                         </div>
                     </div>

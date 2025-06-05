@@ -58,7 +58,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={`${roboto.className} bg-background text-white antialiased scroll-smooth`}>
+      <body className={`${roboto.className}  bg-background text-white antialiased scroll-smooth`}>
         <SmoothScrollToHash />
         {children}
       </body>

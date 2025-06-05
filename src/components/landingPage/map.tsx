@@ -1,7 +1,6 @@
 import { GoogleMapsEmbed } from "@next/third-parties/google"
 
 export function Map() {
-
     return (
         <div id="local" className="scroll-mt-36">
             {/* 🔥 Header SEO + acessível */}
@@ -17,6 +16,7 @@ export function Map() {
                 </p>
             </header>
             <GoogleMapsEmbed
+                title="Localização: Colégio Marista Santa Maria"
                 height={400}
                 mode='place'
                 width="100%"
