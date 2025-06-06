@@ -1,6 +1,10 @@
 import { GoogleMapsEmbed } from "@next/third-parties/google"
 
+type MapType = {
+    apiKey: string
+}
 export function Map() {
+    const apiKey = process.env.GOOGLE_API_KEY!
     return (
         <div id="local" className="scroll-mt-36">
             {/* 🔥 Header SEO + acessível */}
@@ -22,7 +26,7 @@ export function Map() {
                 allowfullscreen={true}
                 zoom="16"
                 loading="lazy"
-                apiKey={'AIzaSyDVsdBw3V7RrcNuvwnL_Cv8JlceY9Asakk'}
+                apiKey={apiKey}
                 language="pt-BR"
                 region="BR"
                 maptype="roadmap"
