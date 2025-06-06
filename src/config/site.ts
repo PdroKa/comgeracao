@@ -29,7 +29,9 @@ export const siteConfig: SiteConfig = {
     },
     keywords: [
         "Adorai",
-        "Adorai Curitiba",
+        "comgeracao",
+        "Geração de adoradores",
+        "Adorai Curitiba 2025",
         "Retiro espiritual",
         "Retiro católico",
         "Adoração",

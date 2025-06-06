@@ -14,7 +14,7 @@ export function TeamSection() {
                     id="team-heading"
                     className="mb-8 text-center text-3xl font-bold md:mb-16 lg:text-5xl"
                 >
-                    Participação no Evento
+                    Line Up
                 </h2>
 
                 <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
