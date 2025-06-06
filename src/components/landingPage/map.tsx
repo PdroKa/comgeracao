@@ -16,7 +16,6 @@ export function Map() {
                 </p>
             </header>
             <GoogleMapsEmbed
-                title="Localização: Colégio Marista Santa Maria"
                 height={400}
                 mode='place'
                 width="100%"
