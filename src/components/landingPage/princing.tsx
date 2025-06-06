@@ -1,7 +1,6 @@
-import { Button } from '@/components/ui/button'
+import { ButtonLink } from '@/components/ui/button'
 import { DataPrincing } from '@/config/princing'
 import { Check } from 'lucide-react'
-import Link from 'next/link'
 
 export function PrincingSection() {
 
@@ -56,12 +55,10 @@ export function PrincingSection() {
                                     {DataPrincing.preco.incluso}
                                 </p>
                             </div>
-
-                            <Link href="/adoraicuritiba/checkout">
-                                <Button className="w-full md:w-auto text-base font-semibold">
-                                    Garantir minha vaga agora
-                                </Button>
-                            </Link>
+                            
+                            <ButtonLink disabled className="w-full md:w-auto text-base font-semibold" href="/adoraicuritiba/Checkout">
+                                Garantir minha vaga agora
+                            </ButtonLink>
 
                             <p className="mt-10 text-sm text-muted-foreground leading-relaxed">
                                 Acesso completo ao evento: pregações, momentos de louvor, oração, espaços de adoração e muito mais.
