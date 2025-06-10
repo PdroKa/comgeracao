@@ -5,15 +5,11 @@ type NavigationItem = {
 
 export const navigationItems: NavigationItem[] = [
     {
-        title: 'Início',
-        href: '#inicio',
-    },
-    {
-        title: 'Sobre',
+        title: 'OQUE É',
         href: '#sobre',
     },
     {
-        title: 'Participação',
+        title: 'LINE UP',
         href: '#team',
     },
     {
@@ -21,11 +17,11 @@ export const navigationItems: NavigationItem[] = [
         href: '#faq',
     },
     {
-        title: 'Local',
+        title: 'LOCAL',
         href: '#local',
     },
     {
-        title: 'Ingresso',
+        title: 'INGRESSOS',
         href: '#princing',
     },
 ]

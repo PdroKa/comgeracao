@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { SmoothScrollToHash } from "@/lib/SmoothScrollToHash";
 import { Roboto } from "next/font/google";
 import { siteConfig } from "@/config/site";
+import Script from "next/script";
 
 
 const roboto = Roboto({

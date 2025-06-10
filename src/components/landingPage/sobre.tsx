@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { ButtonLink } from "../ui/button"
 
 export function About() {
     return (
@@ -13,9 +14,12 @@ export function About() {
                     <div>
                         <h2
                             id="about-title"
-                            className="mb-6 text-4xl md:text-5xl font-extrabold tracking-tight text-black"
+                            className="mb-6 flex-1/2 text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-black"
                         >
-                            O que é o <span className="text-primary font-bold border-b-2">Adorai Curitiba?</span>
+                            O QUE É O{" "}
+                            <span className="relative z-10 font-bold text-primary py-1 px-2 inline-block before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-background">
+                                ADORAI CURITIBA?
+                            </span>
                         </h2>
                         <p className="text-muted-foreground mb-4 text-lg leading-relaxed">
                             O <strong>Adorai Curitiba</strong> é um <strong>retiro de 2 dias</strong> que reúne jovens e famílias para viverem momentos de adoração, oração, unidade e transformação.
@@ -44,6 +48,11 @@ export function About() {
                             height={1080}
                             sizes="(max-width: 768px) 100vw, 768px"
                         />
+                    </div>
+                    <div className="w-full flex items-center justify-center">
+                        <ButtonLink className="w-full hover:animate-bounce" href={'#princing'}>
+                            Garanta Já
+                        </ButtonLink>
                     </div>
                 </div>
             </div>

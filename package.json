@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@e-inscricao/widget": "^0.0.14",
     "@next/third-parties": "^15.3.3",
     "@radix-ui/react-accordion": "^1.2.11",
     "@radix-ui/react-dropdown-menu": "^2.1.15",

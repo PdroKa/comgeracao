@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export function HeroSection() {
     return (
-        <section className="relative w-full min-h-screen overflow-hidden">
+        <section className="relative w-full min-h-2/3 overflow-hidden">
             <Image
                 src="/og-image.avif"
                 alt="Imagem de fundo Hero"
@@ -16,19 +16,16 @@ export function HeroSection() {
             />
             <div className="absolute inset-0 bg-gradient-to-b from-white/0 to-background z-10" />
 
-            <div className="relative z-20 py-8 px-4 md:px-0 mx-auto max-w-4xl lg:py-12 grid lg:grid-cols-1 gap-8 lg:gap-9">
+            <div className="relative z-20 py-8 px-4 md:px-0 mx-auto max-w-4xl lg:py-12 grid lg:grid-cols-1 gap-13 lg:gap-16">
                 <div className="flex flex-col justify-center items-center">
-                    <h1 className="mb-1 text-center text-3xl sm:text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">
-                        Adorai Curitiba 2K25
-                    </h1>
-                    <p className="mt-2 text-lg text-muted-foreground">
-                        11 e 12 de Outubro de 2025
+                    <p className="mt-2 mb-8 md:text-2xl text-gray-200 font-semibold">
+                        11-12 | OUT | CURITIBA
                     </p>
+                    <h1 className="mb-1 text-center text-2xl sm:text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">
+                        ADORAI CURITIBA 2K25
+                    </h1>
                     <p className="mb-4 text-xs sm:text-sm font-normal lg:text-xl text-gray-200">
                         Curitiba para Jesus pelas <span className="text-primary font-bold">mãos de Maria.</span>
-                    </p>
-                    <p className="mb-4 text-sm text-center font-normal lg:text-xl text-gray-200">
-                        Prepare-se para viver uma experiência transformadora na presença de Deus.
                     </p>
                 </div>
 

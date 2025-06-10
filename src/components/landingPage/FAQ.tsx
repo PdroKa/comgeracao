@@ -16,13 +16,9 @@ export function FAQ() {
             id="faq-heading"
             className="text-balance text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground"
           >
-            <span className="text-primary">Perguntas </span>
-             Frequentes
+            <span className="text-primary">PERGUNTAS </span>
+             & RESPOSTAS
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
-            Encontre respostas rápidas sobre o retiro, inscrições, benefícios da pré-venda
-            e o <strong>Pré-Adorai no Hard Rock</strong>.
-          </p>
         </header>
 
         {/* 🔥 Accordion */}
@@ -30,26 +26,26 @@ export function FAQ() {
           <Accordion
             type="single"
             collapsible
-            className="bg-card w-full rounded-2xl border border-border px-6 py-4 shadow-sm"
+            className="bg-card w-full rounded-xl border border-border shadow-sm"
           >
             {faqItems.map((item) => (
               <AccordionItem
                 key={item.id}
                 value={item.id}
-                className="border-dashed"
               >
-                <AccordionTrigger className="cursor-pointer text-base font-semibold text-accent-foreground hover:no-underline">
+                <AccordionTrigger className="rounded-none px-6 py-4 cursor-pointer 
+                border border-background text-base font-semibold text-accent-foreground hover:no-underline">
                   {item.pergunta}
                 </AccordionTrigger>
-                <AccordionContent>
-                  <p className="text-base text-muted-foreground">{item.resposta}</p>
+                <AccordionContent className='p-0'>
+                  <p className="bg-background text-base text-secondary px-6 py-4">{item.resposta}</p>
                 </AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
 
           {/* 🔥 Suporte */}
-          <p className="text-muted-foreground mt-8 px-6 text-center">
+          <p className="text-muted-foreground mt-8 px-6 text-center text-sm">
             Não encontrou sua resposta? Fale diretamente com nossa equipe pelo{' '}
             <Link
               href="#suporte"

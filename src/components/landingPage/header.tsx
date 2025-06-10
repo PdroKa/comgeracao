@@ -15,7 +15,7 @@ export function Header() {
                 <ul className="hidden md:flex gap-4 items-center">
 
                     {navigationItems.map((link, index) => (
-                        link.title === 'Ingresso' ? null : (
+                        link.title === 'INGRESSOS' ? null : (
 
                             <li key={index} >
                                 <a href={link.href} className="text-sm font-medium hover:text-primary transition">
@@ -37,7 +37,7 @@ export function Header() {
                 <div className="hidden md:flex items-center">
                     <a href="#princing">
                         <Button variant="ghost" className="text-sm font-medium hover:text-primary">
-                            Ingresso
+                            INGRESSOS
                         </Button>
                     </a>
                 </div>

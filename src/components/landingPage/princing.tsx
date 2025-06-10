@@ -1,6 +1,7 @@
 import { ButtonLink } from '@/components/ui/button'
 import { DataPrincing } from '@/config/princing'
 import { Check } from 'lucide-react'
+import { ButtonEinscricao } from '../e-inscricao/button'
 
 export function PrincingSection() {
 
@@ -37,7 +38,7 @@ export function PrincingSection() {
                         {/* 🔥 Coluna esquerda */}
                         <div className="text-center md:pr-12">
                             {DataPrincing.badge &&
-                                <div className="inline-block bg-accent-foreground text-white text-xs px-4 py-1 rounded-full mb-4 animate-pulse">
+                                <div className="inline-block bg-accent-foreground text-white text-xs px-4 py-1 rounded-full mb-4">
                                     {DataPrincing.badge}
                                 </div>
                             }
@@ -55,11 +56,9 @@ export function PrincingSection() {
                                     {DataPrincing.preco.incluso}
                                 </p>
                             </div>
-                            
-                            <ButtonLink disabled className="w-full md:w-auto text-base font-semibold" href="/adoraicuritiba/Checkout">
+                            <ButtonEinscricao>
                                 Garantir minha vaga agora
-                            </ButtonLink>
-
+                            </ButtonEinscricao>
                             <p className="mt-10 text-sm text-muted-foreground leading-relaxed">
                                 Acesso completo ao evento: pregações, momentos de louvor, oração, espaços de adoração e muito mais.
                             </p>
@@ -67,7 +66,7 @@ export function PrincingSection() {
 
                         {/* 🔥 Coluna direita - Benefícios */}
                         <div>
-                            <h4 className="sr-only">Benefícios do ingresso</h4>
+                            <h4 className='font-bold mx-6 mb-3'>Benefícios do ingresso</h4>
                             <ul className="space-y-4">
                                 {DataPrincing.beneficios.map((item, index) => (
                                     <li key={index} className="flex items-start gap-3">
@@ -80,8 +79,6 @@ export function PrincingSection() {
                             <p className="mt-6 text-sm text-muted-foreground">
                                 Participe de um dos maiores eventos católicos do Brasil. Junte-se a milhares de adoradores em um mover profético e transformador.
                             </p>
-                            <div className="mt-10 flex flex-wrap items-center gap-4">
-                            </div>
                         </div>
                     </div>
                 </div>
