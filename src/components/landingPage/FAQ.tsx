@@ -17,7 +17,7 @@ export function FAQ() {
             className="text-balance text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground"
           >
             <span className="text-primary">PERGUNTAS </span>
-             & RESPOSTAS
+            & RESPOSTAS
           </h2>
         </header>
 
@@ -26,19 +26,19 @@ export function FAQ() {
           <Accordion
             type="single"
             collapsible
-            className="bg-card w-full rounded-xl border border-border shadow-sm"
+            className=" w-full  shadow-sm "
           >
             {faqItems.map((item) => (
               <AccordionItem
                 key={item.id}
                 value={item.id}
               >
-                <AccordionTrigger className="rounded-none px-6 py-4 cursor-pointer 
-                border border-background text-base font-semibold text-accent-foreground hover:no-underline">
-                  {item.pergunta}
+                <AccordionTrigger className="px-6 py-4 rounded-none cursor-pointer  
+                text-base border border-background font-semibold bg-card text-accent-foreground hover:no-underline">
+                  {item.pergunta.toUpperCase()}
                 </AccordionTrigger>
-                <AccordionContent className='p-0'>
-                  <p className="bg-background text-base text-secondary px-6 py-4">{item.resposta}</p>
+                <AccordionContent className='p-0 whitespace-pre-line border-x border-x-card'>
+                  <p className="bg-background text-base text-card px-6 py-4">{item.resposta}</p>
                 </AccordionContent>
               </AccordionItem>
             ))}

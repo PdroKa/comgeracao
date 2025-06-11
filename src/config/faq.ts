@@ -1,7 +1,7 @@
 type FaqItems = {
     id: string
     pergunta: string
-    resposta: string
+    resposta: string | string[]
 
 }
 
@@ -9,21 +9,22 @@ export const faqItems: FaqItems[] = [
 
     {
         id: '1',
-        pergunta: 'O que está incluso na minha inscrição?',
-        resposta:
-            'A inscrição no lote de pré-venda inclui: ingresso para os dois dias de retiro, uma camiseta oficial "Verdadeiros Adoradores" e um ebook digital "Pentecostes". Os 200 primeiros inscritos também ganham acesso ao Pré-Adorai no Hard Rock Curitiba.',
+        pergunta: 'O QUE O MEU INGRESSO INCLUI?',
+        resposta: 'O seu ingresso te dá direito a uma entrada individual ao Adorai Curitiba 2025, para os dois dias de evento.',
     },
     {
         id: '2',
-        pergunta: 'O que é o Pré-Adorai no Hard Rock?',
+        pergunta: 'QUANDO E ONDE O EVENTO SERÁ REALIZADO?',
         resposta:
-            'É um encontro exclusivo antes do retiro, realizado no Hard Rock Curitiba, com momentos de comunhão, louvor e partilha. Apenas os 200 primeiros inscritos na pré-venda terão acesso a esse momento especial.',
+            `Serão dois dias de evento: 11/10 (00h às 00h) e 12/10 (00h às 00h).
+            Endereço: R. Prof. Joaquim de Matos Barreto, 98 - São Lourenço, Curitiba - PR.`
     },
     {
         id: '3',
-        pergunta: 'Quando e onde será o Adorai Curitiba?',
+        pergunta: 'COMO VAI FUNCIONAR?',
         resposta:
-            'O evento será um retiro de 2 dias, com data e local a serem divulgados em breve. Após a inscrição, você receberá todas as informações atualizadas por e-mail e nas nossas redes sociais.',
+            `Serão 2 dias intensos com Santa Missa, Adoração, teatro e 99 pregações por dia. Espero ver você participando de todos esses momentos!
+Em breve traremos mais informações. Fique ligado no nosso Instagram: @comgeracao `
     },
     {
         id: '4',

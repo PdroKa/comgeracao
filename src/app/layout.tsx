@@ -60,7 +60,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-
       <body
         cz-shortcut-listen="true"
         className={`${roboto.className} bg-background text-white antialiased scroll-smooth`}>
