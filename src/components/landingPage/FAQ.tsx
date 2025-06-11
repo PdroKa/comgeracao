@@ -37,7 +37,7 @@ export function FAQ() {
                 text-base border border-background font-semibold bg-card text-accent-foreground hover:no-underline">
                   {item.pergunta.toUpperCase()}
                 </AccordionTrigger>
-                <AccordionContent className='p-0 whitespace-pre-line border-x border-x-card'>
+                <AccordionContent className='p-0 whitespace-pre-line border-x border-x-card border-b'>
                   <p className="bg-background text-base text-card px-6 py-4">{item.resposta}</p>
                 </AccordionContent>
               </AccordionItem>

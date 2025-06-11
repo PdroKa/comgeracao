@@ -6,8 +6,15 @@ import { PrincingSection } from "@/components/landingPage/princing";
 import { FAQ } from "@/components/landingPage/FAQ";
 import { Map } from "@/components/landingPage/map";
 import { FooterAdoraiCwb } from "@/components/landingPage/footer";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Adorai Curitiba 2025 - 2 dias de Adoração",
+    description: "Adorai Curitiba - Curitiba para Jesus, pelas mãos de Maria"
+}
 
 export default function AdoraiCuritiba() {
+
     return (
         <div id="inicio" className="scroll-mt-36">
             <Header />

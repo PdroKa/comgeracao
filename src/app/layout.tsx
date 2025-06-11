@@ -1,57 +1,12 @@
 import "./globals.css";
-import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-
-import { SmoothScrollToHash } from "@/lib/SmoothScrollToHash";
-import { siteConfig } from "@/config/site";
-import Script from "next/script";
 import { GoogleAnalytics } from "@next/third-parties/google";
-
+import { SmoothScrollToHash } from "@/app/lib/SmoothScrollToHash";
 
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["400", "500", "700"]
 })
-
-export const metadata: Metadata = {
-  title: {
-    default: siteConfig.title,
-    template: `%s | ${siteConfig.title}`
-  },
-  keywords: siteConfig.keywords,
-  description: siteConfig.description,
-  metadataBase: new URL(siteConfig.url),
-
-  openGraph: {
-    title: siteConfig.title,
-    description: siteConfig.description,
-    url: siteConfig.url,
-    siteName: siteConfig.name,
-    images: [
-      {
-        url: siteConfig.ogImage,
-        width: 1200,
-        height: 630,
-        alt: `${siteConfig.title} - ${siteConfig.name} `,
-      },
-
-    ],
-    locale: "pt_BR",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: siteConfig.title,
-    description: siteConfig.description,
-    images: [siteConfig.ogImage],
-  },
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/apple-icon.png",
-  },
-}
-
 
 export default function RootLayout({
   children,
