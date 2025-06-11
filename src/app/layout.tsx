@@ -1,10 +1,11 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import { Roboto } from "next/font/google";
 
 import { SmoothScrollToHash } from "@/lib/SmoothScrollToHash";
-import { Roboto } from "next/font/google";
 import { siteConfig } from "@/config/site";
 import Script from "next/script";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 
 const roboto = Roboto({
@@ -59,10 +60,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={`${roboto.className}  bg-background text-white antialiased scroll-smooth`}>
+
+      <body
+        cz-shortcut-listen="true"
+        className={`${roboto.className} bg-background text-white antialiased scroll-smooth`}>
         <SmoothScrollToHash />
         {children}
       </body>
-    </html>
+      <GoogleAnalytics gaId="G-YCQ09E7RWN"/>
+    </html >
   );
 }
