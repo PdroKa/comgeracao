@@ -4,17 +4,13 @@ import { Check } from 'lucide-react'
 import { ButtonEinscricao } from '../e-inscricao/button'
 
 export function PrincingSection() {
-
-
     return (
         <section
             id="princing"
-            className="relative bg-background py-16 md:py-32 "
+            className="relative py-16 md:py-32"
             aria-labelledby="princing-heading"
         >
             <div className="mx-auto max-w-4xl px-4 md:px-0">
-
-                {/* 🔥 Header com SEO */}
                 <header className="mb-10 text-start sm:text-center">
                     <h2
                         id="princing-heading"
@@ -31,7 +27,8 @@ export function PrincingSection() {
                     </p>
                 </header>
 
-                {/* 🔥 Card principal */}
+
+
                 <div className="bg-card text-card-foreground relative rounded-3xl border border-border shadow-xl">
                     <div className="grid items-center gap-10 divide-y md:grid-cols-2 md:divide-x md:divide-y-0 p-8 md:p-12">
 
@@ -83,7 +80,7 @@ export function PrincingSection() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
 
 
     )

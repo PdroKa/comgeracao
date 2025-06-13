@@ -26,12 +26,13 @@ export function FAQ() {
           <Accordion
             type="single"
             collapsible
-            className=" w-full  shadow-sm "
+            className=" w-full shadow-sm"
           >
             {faqItems.map((item) => (
               <AccordionItem
                 key={item.id}
                 value={item.id}
+                className=''
               >
                 <AccordionTrigger className="px-6 py-4 rounded-none cursor-pointer  
                 text-base border border-background font-semibold bg-card text-accent-foreground hover:no-underline">
