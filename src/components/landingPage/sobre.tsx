@@ -23,17 +23,23 @@ export function About() {
                         </h2>
                         <p className="text-gray-800 mb-4 text-lg leading-relaxed">
                             <strong className="bg-background text-secondary px-2 rounded font-bold">Adorai Curitiba</strong>: Um Chamado para Transformar Gerações <br />
-                            <strong className="bg-background text-secondary px-2 rounded font-bold">Imagine um evento onde o céu toca a terra</strong>, onde corações são incendiados pelo amor de Deus e onde uma geração inteira se levanta para <strong className="bg-background text-secondary px-2 rounded font-bold">adorar em espírito e em verdade</strong>. 
+                            <strong className="bg-background text-secondary px-2 rounded font-bold">Imagine um evento onde o céu toca a terra</strong>, onde corações são incendiados pelo amor de Deus e onde uma geração inteira se levanta para <strong className="bg-background text-secondary px-2 rounded font-bold">adorar em espírito e em verdade</strong>.
                             Em 2024, vivemos o extraordinário — uma juventude despertando para o seu propósito.
                             <br />
                             Em 2025, será ainda maior.
 
-                            <strong className="bg-background text-secondary px-2 rounded font-bold">Você está pronto para fazer parte dessa história? </strong>
+                            <strong>
+                                Você está pronto para fazer parte dessa história?
+                            </strong>
                             Um encontro que não apenas impactará sua vida, mas também tocará profundamente aqueles ao seu redor. Prepare-se para momentos inesquecíveis de <strong>adoração profunda</strong>, <strong>pregações avivalistas</strong> e a <strong>presença real de Jesus</strong>.
-
-                            O convite está lançado: <strong className="bg-background text-secondary px-2 rounded font-bold">venha, desperte, transforme!</strong>
+                            O convite está lançado:
+                            <strong className="bg-background text-secondary px-2 rounded font-bold">
+                                venha, desperte, transforme!
+                            </strong>
                             <br />
-                            <strong className="bg-background text-secondary px-2 rounded font-bold">99 não é 100!</strong>
+                            <strong className="bg-background text-secondary px-2 rounded font-bold">
+                                99 não é 100!
+                            </strong>
                         </p>
                     </div>
 

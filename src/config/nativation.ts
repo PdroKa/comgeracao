@@ -10,7 +10,7 @@ export const navigationItems: NavigationItem[] = [
     },
     {
         title: 'LINE UP',
-        href: '#team',
+        href: '#line-up',
     },
     {
         title: 'FAQ',

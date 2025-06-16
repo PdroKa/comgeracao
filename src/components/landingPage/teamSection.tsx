@@ -4,7 +4,7 @@ import Image from "next/image"
 export function TeamSection() {
     return (
         <section
-            id="team"
+            id="line-up"
             className="py-12 md:py-32 scroll-mt-16"
             aria-labelledby="team-heading"
         >
