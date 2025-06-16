@@ -57,7 +57,7 @@ export function About() {
                         />
                     </div>
                     <div className="w-full flex items-center justify-center">
-                        <ButtonLink className="w-full hover:animate-bounce" href={'#princing'}>
+                        <ButtonLink href={'#princing'}>
                             Garanta Já
                         </ButtonLink>
                     </div>

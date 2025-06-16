@@ -28,8 +28,6 @@ export function PrincingSection() {
                     </p>
                 </header>
 
-
-
                 <div className="bg-card text-card-foreground relative rounded-3xl border border-border shadow-xl">
                     <div className="grid items-center gap-10 divide-y md:grid-cols-2 md:divide-x md:divide-y-0 p-8 md:p-12">
 
