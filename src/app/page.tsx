@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { getSEOTags } from "./lib/seo";
 
 export const metadata: Metadata = getSEOTags({
-  appTitle: "Adorai Curitiba 2025 | 2 Dias de Adoração",
+  appTitle: "Adorai Curitiba 2025 - Geração de Adoradores",
   appDescription: `Adorai Curitiba 2025 - Curitiba para Jesus, pelas mãos de Maria.
     Imagine um evento onde o céu toca a terra, onde corações são incendiados pelo amor de Deus e onde uma geração se levanta para adorar em espírito e em verdade. Em 2024 vivemos o extraordinário! Uma juventude despertando para seu propósito. Em 2025, será ainda maior.`,
   appDomain: "https://comgeracao.com.br/",
@@ -11,22 +11,24 @@ export const metadata: Metadata = getSEOTags({
     "Adorai Curitiba 2025",
     "Retiro espiritual católico",
     "Evento católico em Curitiba",
-    "ComGeração",
+    "Um Chamado para Transformar Gerações",
     "Geração de adoradores",
     "Verdadeiros adoradores",
     "Adoração e louvor",
     "Retiro para jovens católicos",
     "Jovens adoradores",
-    "Santa Missa Curitiba",
-    "Pentecostes 2025",
+    "Santa Missa",
+    "Pentecostes",
     "Nossa Senhora Aparecida",
     "12 de outubro evento católico",
     "Louvor e Adoração em Curitiba",
     "Evento cristão 2025",
     "Retiro mariano",
-    "Pré-Adorai Hard Rock",
-    "Ebook Pentecostes católico",
-    "Formação católica Curitiba"
+    "Adorar em espírito e em verdade",
+    "Presença real de Jesus",
+    "99 não é 100",
+    "Avivalista",
+    "Corações incendiados",
   ],
   canonicalUrlRelative: "/"
 })

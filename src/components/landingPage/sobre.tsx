@@ -21,12 +21,19 @@ export function About() {
                                 ADORAI CURITIBA?
                             </span>
                         </h2>
-                        <p className="text-muted-foreground mb-4 text-lg leading-relaxed">
-                            O <strong>Adorai Curitiba</strong> é um <strong>retiro de 2 dias</strong> que reúne jovens e famílias para viverem momentos de adoração, oração, unidade e transformação.
-                            Um encontro onde a presença de Deus é o centro, e onde cada detalhe é preparado para te levar a uma experiência profunda com o Espírito Santo.
-                        </p>
-                        <p className="text-muted-foreground text-lg leading-relaxed">
-                            Além do retiro, quem se inscreve na <strong>pré-venda</strong> recebe uma <strong>camiseta oficial "Verdadeiros Adoradores"</strong>, um <strong>ebook digital "Pentecostes"</strong> e os <strong>200 primeiros garantem acesso ao Pré-Adorai no Hard Rock Curitiba</strong> — um momento único de comunhão e louvor antes do evento principal.
+                        <p className="text-gray-800 mb-4 text-lg leading-relaxed">
+                            <strong className="bg-background text-secondary px-2 rounded font-bold">Adorai Curitiba</strong>: Um Chamado para Transformar Gerações <br />
+                            <strong className="bg-background text-secondary px-2 rounded font-bold">Imagine um evento onde o céu toca a terra</strong>, onde corações são incendiados pelo amor de Deus e onde uma geração inteira se levanta para <strong className="bg-background text-secondary px-2 rounded font-bold">adorar em espírito e em verdade</strong>. 
+                            Em 2024, vivemos o extraordinário — uma juventude despertando para o seu propósito.
+                            <br />
+                            Em 2025, será ainda maior.
+
+                            <strong className="bg-background text-secondary px-2 rounded font-bold">Você está pronto para fazer parte dessa história? </strong>
+                            Um encontro que não apenas impactará sua vida, mas também tocará profundamente aqueles ao seu redor. Prepare-se para momentos inesquecíveis de <strong>adoração profunda</strong>, <strong>pregações avivalistas</strong> e a <strong>presença real de Jesus</strong>.
+
+                            O convite está lançado: <strong className="bg-background text-secondary px-2 rounded font-bold">venha, desperte, transforme!</strong>
+                            <br />
+                            <strong className="bg-background text-secondary px-2 rounded font-bold">99 não é 100!</strong>
                         </p>
                     </div>
 
