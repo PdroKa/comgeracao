@@ -17,7 +17,7 @@ export function PrincingSection() {
                         id="princing-heading"
                         className="text-2xl md:text-5xl font-extrabold leading-tight text-foreground"
                     >
-                        LOTE <span className="text-primary">PRÉ-VENDA</span> ABERTO!
+                        LOTE <span className="text-primary font-open">PRÉ-VENDA</span> ABERTO!
                     </h2>
                     <p className="text-sm sm:text-lg text-muted-foreground max-w-6xl mx-auto md:mx-0">
                         Garanta já: ingresso + Camiseta oficial + Ebook Pentecostes". <br />

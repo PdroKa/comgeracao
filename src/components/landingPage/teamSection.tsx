@@ -12,7 +12,7 @@ export function TeamSection() {
             <div className="mx-auto max-w-4xl px-6 lg:px-8">
                 <h2
                     id="team-heading"
-                    className="mb-8 text-center text-3xl font-bold md:mb-16 lg:text-5xl"
+                    className="font-open mb-8 text-center text-3xl font-bold md:mb-16 lg:text-5xl"
                 >
                     LINE-UP
                 </h2>

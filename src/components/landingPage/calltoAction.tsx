@@ -21,7 +21,7 @@ export function HeroSection() {
                     <p className="mt-2 mb-8 md:text-2xl text-gray-200 font-semibold">
                         11-12 | OUT | CURITIBA
                     </p>
-                    <h1 className="mb-1 text-center text-2xl sm:text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">
+                    <h1 className="font-open mb-1 text-center text-2xl sm:text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">
                         ADORAI CURITIBA 2K25
                     </h1>
                     <p className="mb-4 text-xs sm:text-sm font-normal lg:text-xl text-gray-200">

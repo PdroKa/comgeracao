@@ -14,16 +14,16 @@ export function About() {
                     <div>
                         <h2
                             id="about-title"
-                            className="mb-6 flex-1/2 text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-black"
+                            className="text-center font-open mb-6 flex-1/2 text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-black"
                         >
                             O QUE É O{" "}
-                            <span className="relative z-10 font-bold text-primary py-1 px-2 inline-block before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-background">
+                            <span className="relative z-10 font-bold text-primary py-1 px-2 inline-block before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rotate-1 before:-z-10 before:bg-background">
                                 ADORAI CURITIBA?
                             </span>
                         </h2>
                         <p className="text-gray-800 mb-4 text-lg leading-relaxed">
-                            <strong className="bg-background text-secondary px-2 rounded font-bold">Adorai Curitiba</strong>: Um Chamado para Transformar Gerações <br />
-                            <strong className="bg-background text-secondary px-2 rounded font-bold">Imagine um evento onde o céu toca a terra</strong>, onde corações são incendiados pelo amor de Deus e onde uma geração inteira se levanta para <strong className="bg-background text-secondary px-2 rounded font-bold">adorar em espírito e em verdade</strong>.
+                            <strong className="bg-background text-secondary px-2 font-bold">Adorai Curitiba</strong>: Um Chamado para Transformar Gerações <br />
+                            <strong className="bg-background text-secondary px-2 font-bold">Imagine um evento onde o céu toca a terra</strong>, onde corações são incendiados pelo amor de Deus e onde uma geração inteira se levanta para <strong className="bg-background text-secondary px-2 font-bold">adorar em espírito e em verdade</strong>.
                             Em 2024, vivemos o extraordinário — uma juventude despertando para o seu propósito.
                             <br />
                             Em 2025, será ainda maior.
@@ -33,11 +33,11 @@ export function About() {
                             </strong>
                             Um encontro que não apenas impactará sua vida, mas também tocará profundamente aqueles ao seu redor. Prepare-se para momentos inesquecíveis de <strong>adoração profunda</strong>, <strong>pregações avivalistas</strong> e a <strong>presença real de Jesus</strong>.
                             O convite está lançado:
-                            <strong className="bg-background text-secondary px-2 rounded font-bold">
+                            <strong className="bg-background text-secondary px-2 font-bold">
                                 venha, desperte, transforme!
                             </strong>
                             <br />
-                            <strong className="bg-background text-secondary px-2 rounded font-bold">
+                            <strong className="bg-background text-secondary px-2 font-bold">
                                 99 não é 100!
                             </strong>
                         </p>

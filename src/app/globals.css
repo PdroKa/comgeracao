@@ -1,9 +1,10 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+    --font-open: var(--font-open);
+
     --color-transparent: transparent;
     --radius-sm: calc(var(--radius) - 4px);
     --radius-md: calc(var(--radius) - 2px);
@@ -93,4 +94,3 @@
         @apply bg-background text-foreground;
     }
 }
-

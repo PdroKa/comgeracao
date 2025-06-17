@@ -2,6 +2,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { faqItems } from '@/config/faq'
 import Link from 'next/link'
 
+
 export function FAQ() {
   return (
     <section
@@ -15,9 +16,9 @@ export function FAQ() {
           <h2
             id="faq-heading"
             className="text-balance text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground"
-          >
-            <span className="text-primary">PERGUNTAS </span>
-            & RESPOSTAS
+          >PERGUNTAS &
+            <span className={`font-open text-primary`}> RESPOSTAS</span>
+             
           </h2>
         </header>
 
@@ -38,7 +39,7 @@ export function FAQ() {
                 text-base border-b-2 border-background font-semibold bg-card text-accent-foreground hover:no-underline">
                   {item.pergunta.toUpperCase()}
                 </AccordionTrigger>
-                
+
                 <AccordionContent className='p-0 whitespace-pre-line border-x border-b border-x-card'>
                   <p className="bg-background text-base text-card px-6 py-4">{item.resposta}</p>
                 </AccordionContent>
@@ -50,7 +51,7 @@ export function FAQ() {
           <p className="text-muted-foreground mt-8 px-6 text-center text-sm">
             Não encontrou sua resposta? Fale diretamente com nossa equipe pelo{' '}
             <Link
-              href="#suporte"
+              href="https://api.whatsapp.com/send/?phone=%2B554188917845&text=Bom%20dia%20gera%C3%A7%C3%A3o%2C%20Tudo%20bem%3F%0AGostaria%20de%20tirar%20uma%20duvida&type=phone_number&app_absent=0"
               className="text-primary font-medium hover:underline"
             >
               nosso suporte

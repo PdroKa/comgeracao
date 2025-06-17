@@ -12,7 +12,7 @@ export function Map() {
             <header className="mx-auto max-w-2xl text-center my-4">
                 <h2
                     id="faq-heading"
-                    className="text-balance text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground"
+                    className="font-open text-balance text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground"
                 >
                     LOCAL
                 </h2>
