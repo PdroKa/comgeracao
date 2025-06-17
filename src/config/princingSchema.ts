@@ -14,14 +14,14 @@ export const DataPrincing: Princing = {
     titleIngresso: "Ingresso Adorai Curitiba",
     lote: "Lote de pré-venda — Vagas limitadas",
     preco: {
-        incluso: 'INGRESSO INDIVIDUAL',
-        reais: 148
+        incluso: 'INGRESSO INDIVIDUAL - PAGAMENTO EM ATÉ 12x',
+        reais: '148'
     },
     badge: "🎁 Pré-Adorai no Hard Rock para os 200 primeiros",
     bonus: [
-        "🎁 Bônus:  Camiseta oficial — 'Verdadeiros Adoradores'",
-        "🎁 Bônus:  Ebook digital exclusivo — 'Pentecostes'",
         "🎁 200 Primeiros:  Pré Adorai no HARD-ROCK CAFÉ",
+        "🎁 Bônus:  Camiseta oficial",
+        "🎁 Bônus:  Ebook digital exclusivo",
     ],
     beneficios: [
         'Ingresso para os 2 dias',

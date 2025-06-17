@@ -8,7 +8,7 @@ export function PrincingSection() {
     return (
         <section
             id="princing"
-            className="relative py-16 md:py-32"
+            className="relative py-16 md:py-32 bg-background/90"
             aria-labelledby="princing-heading"
         >
             <div className="mx-auto max-w-4xl px-4 md:px-0">
@@ -33,29 +33,30 @@ export function PrincingSection() {
 
                         {/* 🔥 Coluna esquerda */}
                         <div className="text-center md:pr-12">
-                            {badge &&
-                                <div className="inline-block bg-accent-foreground text-white text-xs px-4 sm:py-1 rounded-full mb-4">
+                            {!badge &&
+                                <div className="inline-block bg-accent-foreground text-white text-[10px] sm:text-xs px-4 sm:py-1 rounded-full mb-4">
                                     {badge}
                                 </div>
                             }
 
 
-                            <h3 className="text-2xl font-semibold">{titleIngresso}</h3>
-                            <p className="mt-2 text-sm sm:text-base text-muted-foreground">{lote}</p>
+                            <h3 className="text-2xl font-semibold">{titleIngresso.toUpperCase()}</h3>
+                            <p className="mt-2 text-sm sm:text-base text-gray-600">{lote}</p>
 
                             <div className="my-10">
                                 <span className="inline-block text-6xl font-bold text-accent-foreground">
-                                    <span className="text-4xl align-top">R$</span>
+                                    <span className="text-2xl align-top text-gray-700">R$</span>
                                     {preco.reais}
+                                    <span className="text-3xl align-bottom">,88</span>
                                 </span>
-                                <p className="text-xs mt-2 text-muted-foreground">
+                                <p className="text-xs mt-2 text-gray-600">
                                     {preco.incluso}
                                 </p>
                             </div>
                             <ButtonEinscricao>
                                 Garantir minha vaga agora
                             </ButtonEinscricao>
-                            <p className="mt-6 sm:mt-10 text-xs sm:text-sm text-muted-foreground leading-relaxed">
+                            <p className="mt-6 sm:mt-10 text-xs sm:text-sm text-gray-600 leading-relaxed">
                                 Acesso completo ao evento: pregações, momentos de louvor, oração, espaços de adoração e muito mais.
                             </p>
                         </div>
@@ -65,7 +66,7 @@ export function PrincingSection() {
                             <h4 className='font-bold mx-6 mb-3'>Benefícios do ingresso</h4>
                             <ul className="space-y-4">
                                 {beneficios.map((beneficio, index) => (
-                                    <li key={`beneficio-${index}`} className="flex items-start gap-3">
+                                    <li key={`beneficio-${index}`} className="flex items-end gap-3">
                                         <Check width={20} height={20} className="text-green-500 mt-1 shrink-0" />
                                         <span className="text-sm leading-snug">
                                             {beneficio}
@@ -73,8 +74,10 @@ export function PrincingSection() {
                                     </li>
                                 ))}
 
+                                <div className='border-b border-6 bg-background'></div>
+
                                 {bonus && bonus.map((item, index) => (
-                                    <li key={`bonus-${index}`} className="flex items-start gap-3">
+                                    <li key={`bonus-${index}`} className="flex items-center gap-3">
                                         <Check width={20} height={20} className="text-yellow-500 mt-1 shrink-0" />
                                         <span className="text-sm leading-snug font-semibold">
                                             {item}
