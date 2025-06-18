@@ -4,9 +4,8 @@ import { Suspense } from "react";
 import Loading from "./loading";
 
 export const metadata: Metadata = {
-    title: 'Inscrição - Adorai Curitiba 2025',
-    description: `Adorai Curitiba 2025 - Curitiba para Jesus, pelas mãos de Maria.
-    Imagine um evento onde o céu toca a terra, onde corações são incendiados pelo amor de Deus e onde uma geração se levanta para adorar em espírito e em verdade. Em 2024 vivemos o extraordinário! Uma juventude despertando para seu propósito. Em 2025, será ainda maior.`,
+    title: "Ingressos Adorai Curitiba 2025 | Garanta sua vaga",
+    description: "Garanta seu ingresso para o Adorai Curitiba 2025. Dois dias de avivamento, adoração e encontro com Deus em Curitiba."
 };
 
 export default function Checkout() {

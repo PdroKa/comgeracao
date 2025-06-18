@@ -3,9 +3,8 @@ import { getSEOTags } from "./lib/seo";
 
 export const metadata: Metadata = getSEOTags({
   appTitle: "Adorai Curitiba 2025 - Geração de Adoradores",
-  appDescription: `Adorai Curitiba 2025 - Curitiba para Jesus, pelas mãos de Maria.
-    Imagine um evento onde o céu toca a terra, onde corações são incendiados pelo amor de Deus e onde uma geração se levanta para adorar em espírito e em verdade. Em 2024 vivemos o extraordinário! Uma juventude despertando para seu propósito. Em 2025, será ainda maior.`,
-  appDomain: "https://comgeracao.com.br/",
+  appDescription: "Adorai Curitiba 2025 — Curitiba para Jesus, pelas mãos de Maria. Um evento onde o céu toca a terra e uma geração se levanta para adorar." ,
+  appDomain: "https://comgeracao.com.br/adoraicuritiba",
   keywords: [
     "Adorai",
     "Adorai Curitiba 2025",
