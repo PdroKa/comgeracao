@@ -23,6 +23,7 @@
     --color-primary: #ddbb53;
     --color-primary-foreground: var(--primary-foreground);
     --color-secondary: #f8f2a8;
+    --color-tertiary: #c4a382;
     --color-secondary-foreground: var(--secondary-foreground);
     --color-muted: var(--muted);
     --color-muted-foreground: #6b7280;

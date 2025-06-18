@@ -1,5 +1,5 @@
 import { Header } from "@/components/landingPage/header";
-import { HeroSection } from "@/components/landingPage/calltoAction";
+import { HeroSection } from "@/components/landingPage/heroSection";
 import { About } from "@/components/landingPage/sobre";
 import { TeamSection } from "@/components/landingPage/teamSection";
 import { PrincingSection } from "@/components/landingPage/princing";
@@ -23,7 +23,6 @@ export default function AdoraiCuritiba() {
             <About />
             <TeamSection />
             <CountdownTimer />
-            <PrincingSection />
             <FAQ />
             <Map />
             <FooterAdoraiCwb />

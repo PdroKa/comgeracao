@@ -1,17 +1,18 @@
 'use client'
 import { PrincingSection } from "@/components/landingPage/princing";
+import React from "react";
 import Countdown from "react-countdown";
 
 type TimeUnitProps = { value: number; label: string };
 
-const TimeUnit = ({ value, label }: TimeUnitProps) => (
-    <div className="flex flex-col items-center">
-        <span className="text-3xl md:text-5xl font-bold">
-            {value.toString().padStart(2, "0")}
-        </span>
-        <span className="text-sm font-medium text-muted-foreground">{label}</span>
-    </div>
-);
+const TimeUnit = React.memo(({ value, label }: TimeUnitProps) => (
+  <div className="flex flex-col items-center">
+    <span className="text-3xl md:text-5xl font-bold">
+      {value.toString().padStart(2, "0")}
+    </span>
+    <span className="text-sm font-medium text-muted-foreground">{label}</span>
+  </div>
+));
 
 const CountdownDisplay = ({ days, hours, minutes, seconds }: any) => (
     <section
