@@ -2,9 +2,9 @@ import Script from "next/script"
 
 export const members = [
     {
-        name: 'Padre Pio',
-        role: 'Padre Mistico',
-        avatar: '/S-Padre-Pio.png',
+        name: 'Moises Rocha',
+        role: 'Moises Rocha ',
+        avatar: '/pregadores/Moises-rocha.avif',
     },
     {
         name: 'carlo Acutis',
