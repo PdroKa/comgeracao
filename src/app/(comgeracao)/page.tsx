@@ -1,16 +1,16 @@
 import { Metadata } from "next";
-import { getSEOTags } from "./lib/seo";
+import { getSEOTags } from "../lib/seo";
 
 export const metadata: Metadata = getSEOTags({
-  appTitle: "Adorai Curitiba 2025 - Geração de Adoradores",
+  appTitle: "Bem-vindo a Geração de Adoradores",
   appDescription: "Adorai Curitiba 2025 — Curitiba para Jesus, pelas mãos de Maria. Um evento onde o céu toca a terra e uma geração se levanta para adorar." ,
-  appDomain: "https://comgeracao.com.br/adoraicuritiba",
+  appDomain: "https://comgeracao.com.br/",
   keywords: [
     "Adorai",
+    "Adorai Curitiba",
     "Adorai Curitiba 2025",
-    "Retiro espiritual católico",
     "Evento católico em Curitiba",
-    "Um Chamado para Transformar Gerações",
+    "Comunidade Geração de adoradores",
     "Geração de adoradores",
     "Verdadeiros adoradores",
     "Adoração e louvor",
@@ -35,7 +35,7 @@ export const metadata: Metadata = getSEOTags({
 export default function Home() {
   return (
     <div className="w-full h-screen flex justify-center items-center">
-      <h1>Carregando...</h1>
+      <h1>Bem-vindo a Geração de Adoradores...</h1>
     </div>
   );
 }
