@@ -1,6 +1,5 @@
 import "@/app/globals.css";
 import { Roboto, Open_Sans } from "next/font/google";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import { SmoothScrollToHash } from "@/app/lib/SmoothScrollToHash";
 
 const roboto = Roboto({
@@ -25,7 +24,6 @@ export default function RootLayout({
         <SmoothScrollToHash />
         {children}
       </body>
-      <GoogleAnalytics gaId="G-YCQ09E7RWN" />
     </html >
   );
 }

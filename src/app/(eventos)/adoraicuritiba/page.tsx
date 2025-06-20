@@ -7,7 +7,7 @@ import { FAQ } from "@/components/landingPage/FAQ";
 import { Map } from "@/components/landingPage/map";
 import { FooterAdoraiCwb } from "@/components/landingPage/footer";
 import { Metadata } from "next";
-import CountdownTimer from "./components/countdown";
+import { CountdownTimer } from "./components/countdown";
 
 export const metadata: Metadata = {
   title: "Adorai Curitiba 2025 - Geracao de Adoradores",

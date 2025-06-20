@@ -1,4 +1,4 @@
-import "./globals.css";
+import "@/app/globals.css";
 import { Roboto, Open_Sans } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { SmoothScrollToHash } from "@/app/lib/SmoothScrollToHash";

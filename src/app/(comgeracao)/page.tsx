@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { getSEOTags } from "../lib/seo";
+import { getSEOTags } from "@/app/lib/seo";
 
 export const metadata: Metadata = getSEOTags({
   appTitle: "Bem-vindo a Geração de Adoradores",
