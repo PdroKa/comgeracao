@@ -45,20 +45,22 @@ const CountdownDisplay = ({ days, hours, minutes, seconds }: any) => (
 
 export function CountdownTimer() {
     return (
-        <Countdown
-            date={new Date("2025-07-07T19:00:00")}
-            renderer={({ days, hours, minutes, seconds, completed }) =>
-                completed ? (
-                    <PrincingSection />
-                ) : (
-                    <CountdownDisplay
-                        days={days}
-                        hours={hours}
-                        minutes={minutes}
-                        seconds={seconds}
-                    />
-                )
-            }
-        />
+        <div id="princing" className="scroll-mt-20 sm:scroll-mt-0">
+            <Countdown
+                date={new Date("2025-07-07T19:00:00")}
+                renderer={({ days, hours, minutes, seconds, completed }) =>
+                    completed ? (
+                        <PrincingSection />
+                    ) : (
+                        <CountdownDisplay
+                            days={days}
+                            hours={hours}
+                            minutes={minutes}
+                            seconds={seconds}
+                        />
+                    )
+                }
+            />
+        </div>
     );
 }
