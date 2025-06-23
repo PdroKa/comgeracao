@@ -5,6 +5,7 @@ import { cn } from "@/app/lib/utils"
 
 import Link from "next/link"
 import type { UrlObject } from 'url';
+import Image from "next/image"
 
 const buttonVariants = cva(
   "cursor-pointer inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none aria-invalid:ring-destructive/20 aria-invalid:border-destructive",
@@ -91,4 +92,28 @@ function ButtonLink({
 
 }
 
-export { Button, buttonVariants, ButtonLink }
+
+
+function ButtonWhatsApp({
+  children,
+  className,
+  href
+}: {
+  children: string;
+  href: string | UrlObject;
+} & React.ButtonHTMLAttributes<HTMLButtonElement> & VariantProps<typeof buttonVariants>) {
+  return (
+    <Link title={children} href={href} className={`fixed bottom-4 right-4 z-50 bg-transparent hover:scale-110 ${className}`}>
+      <Image
+        src={'/whatssapp.svg'}
+        width={50}
+        height={50}
+        alt="Link para WhatsApp"
+      />
+    </Link>
+  )
+
+
+}
+
+export { Button, buttonVariants, ButtonLink, ButtonWhatsApp }
