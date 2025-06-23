@@ -20,7 +20,7 @@ const CountdownDisplay = ({ days, hours, minutes, seconds }: any) => (
         className="relative py-8 sm:py-16 md:py-32"
         aria-labelledby="princing-heading"
     >
-        <div className="mx-auto max-w-4xl px-4 md:px-0">
+        <div className="mx-auto max-w-4xl px-4 md:px-6">
             <header className="mb-10 text-center">
                 <h2
                     id="princing-heading"
@@ -33,7 +33,7 @@ const CountdownDisplay = ({ days, hours, minutes, seconds }: any) => (
                 </p>
             </header>
 
-            <div className="h-80 rounded-3xl border border-border shadow-xl bg-card text-card-foreground  p-3 sm:p-6 flex justify-center items-center gap-6 flex-wrap">
+            <div className="h-80 rounded-md border border-border shadow-xl bg-card text-card-foreground  p-3 sm:p-6 flex justify-center items-center gap-6 flex-wrap">
                 <TimeUnit value={days} label="dias" />
                 <TimeUnit value={hours} label="horas" />
                 <TimeUnit value={minutes} label="minutos" />

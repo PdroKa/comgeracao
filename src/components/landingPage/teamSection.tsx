@@ -23,7 +23,7 @@ export function TeamSection() {
                             key={member.name}
                             className="flex flex-col items-center text-center md:items-start md:text-left"
                         >
-                            <div className="size-36 sm:size-40 rounded-full overflow-hidden border border-muted shadow-md">
+                            <div className="size-32 sm:size-40 rounded-full overflow-hidden border border-muted shadow-md">
                                 <Image
                                     src={member.avatar}
                                     width={250}
@@ -34,7 +34,7 @@ export function TeamSection() {
                                 />
                             </div>
                             <span className="mt-3 block text-base font-medium">{member.name}</span>
-                            <span className="text-muted-foreground block text-sm">{member.role}</span>
+                            <span className="text-muted-foreground block text-xs sm:text-sm">{member.role}</span>
                         </div>
                     ))}
                 </div>

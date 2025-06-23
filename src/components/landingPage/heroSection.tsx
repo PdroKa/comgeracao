@@ -6,7 +6,7 @@ import { GradientH1 } from '../ui/GradientTitle'
 
 export function HeroSection() {
     return (
-        <section className="relative w-full min-h-2/3 overflow-hidden">
+        <section className="relative w-full min-h-2/3 overflow-hidden sm:px-6">
             <Image
                 src="/og-image.avif"
                 alt="Imagem de fundo Hero"
@@ -17,8 +17,7 @@ export function HeroSection() {
             />
             <div className="absolute inset-0 bg-gradient-to-b from-white/0 to-background z-[1]" />
 
-            <div className="relative z-20 py-8 px-4 md:px-0 mx-auto max-w-4xl lg:py-12 grid lg:grid-cols-1 gap-13 lg:gap-16">
-
+            <div className="relative z-20 py-8 px-4 md:px-0 mx-auto max-w-4xl lg:py-12 grid lg:grid-cols-1 gap-16 sm:gap-10">
                 <div className="flex flex-col justify-center items-center">
                     <p className="mt-2 mb-8 md:text-2xl text-gray-200 font-semibold">
                         11-12 | OUT | CURITIBA
@@ -35,7 +34,7 @@ export function HeroSection() {
                     <LiteYoutube />
                 </div>
 
-                <div className="flex flex-col-reverse gap-4 sm:flex-row sm:items-center sm:justify-center">
+                <div className="flex flex-col-reverse gap-2 sm:flex-row sm:items-center sm:justify-center">
                     <a href="#sobre">
                         <Button variant="ghost" className="text-white">
                             Saiba mais
