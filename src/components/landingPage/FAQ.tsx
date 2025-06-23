@@ -41,7 +41,7 @@ export function FAQ() {
                 </AccordionTrigger>
 
                 <AccordionContent className='p-0 whitespace-pre-line' >
-                  <p className="bg-zinc-700 sm:text-base text-card rounded-md px-6 py-4">{item.resposta}</p>
+                  <p className="bg-zinc-700 text-sm sm:text-base text-card rounded-md px-6 py-4 border">{item.resposta}</p>
                 </AccordionContent>
               </AccordionItem>
             ))}
