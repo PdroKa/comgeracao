@@ -7,7 +7,6 @@ export function PrincingSection() {
     const { titleIngresso, beneficios, badge, bonus, preco, lote, } = DataPrincing
     return (
         <section
-            id="princing"
             className="relative py-16 md:py-32 bg-background/90"
             aria-labelledby="princing-heading"
         >
