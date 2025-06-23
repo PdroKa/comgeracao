@@ -3,27 +3,37 @@ import Script from "next/script"
 export const members = [
     {
         name: 'Moises Rocha',
-        role: 'Moises Rocha ',
+        role: 'Fundador da Comunidade Filhos de João Batista',
         avatar: '/pregadores/Moises-rocha.avif',
     },
     {
-        name: 'carlo Acutis',
-        role: 'Santo dev',
-        avatar: '/S-Carlo.png',
+        name: 'Eduardo Oliveira',
+        role: 'Pregador e Missionário Com.Filhos de João Batista',
+        avatar: '/pregadores/eduardo-oliveira.avif',
     },
     {
-        name: 'Santa Terezinha',
-        role: 'Missionaria enclausurada',
-        avatar: '/S-Terezinha.png',
+        name: 'Padre Ailton',
+        role: 'Fundador da Fraternidade São João Paulo II',
+        avatar: '/pregadores/padre-ailton.avif',
     },
     {
-        name: 'Santa faustina',
-        role: 'Receba a misericordia',
-        avatar: '/S-Faustina.png',
+        name: 'Gil Motta',
+        role: 'Fundador da comunidade Metanoia',
+        avatar: '/S-JPII.png',
     },
     {
-        name: 'São Jõao Paulo II',
-        role: 'Papa da Juventude',
+        name: 'William Bernardo',
+        role: 'Fundador da comunidade Geração de adoradores',
+        avatar: '/pregadores/William.avif',
+    },
+    {
+        name: 'Padre Fernando',
+        role: 'Diretor espiritual',
+        avatar: '/S-JPII.png',
+    },
+    {
+        name: 'Padre ?',
+        role: 'Padre ?',
         avatar: '/S-JPII.png',
     },
 ]

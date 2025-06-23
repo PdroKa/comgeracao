@@ -23,13 +23,13 @@ export function TeamSection() {
                             key={member.name}
                             className="flex flex-col items-center text-center md:items-start md:text-left"
                         >
-                            <div className="size-36 sm:size-40 rounded-full overflow-hidden border border-muted p-1 bg-background shadow-md">
+                            <div className="size-36 sm:size-40 rounded-full overflow-hidden border border-muted shadow-md">
                                 <Image
                                     src={member.avatar}
-                                    width={500}
-                                    height={500}
+                                    width={250}
+                                    height={250}
                                     alt={`Foto de ${member.name}`}
-                                    className="w-full h-full object-cover object-top hover:scale-105 transition-transform"
+                                    className="w-full h-full object-cover hover:scale-110 transition-transform"
                                     loading="lazy"
                                 />
                             </div>
