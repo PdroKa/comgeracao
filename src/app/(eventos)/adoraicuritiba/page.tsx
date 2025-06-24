@@ -43,6 +43,7 @@ export default function AdoraiCuritiba() {
       <About />
       <TeamSection />
       <CountdownTimer />
+      <PrincingSection />
       <FAQ />
       <Map />
       <FooterAdoraiCwb />

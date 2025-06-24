@@ -3,7 +3,8 @@ type Princing = {
     lote: string
     preco: {
         incluso: string
-        reais: string | number
+        total: string | number
+        parcelado: string | number
     }
     badge?: string
     bonus?: string[]
@@ -14,8 +15,9 @@ export const DataPrincing: Princing = {
     titleIngresso: "Ingresso Adorai Curitiba",
     lote: "Lote de pré-venda — Vagas limitadas",
     preco: {
-        incluso: 'INGRESSO INDIVIDUAL - PAGAMENTO EM ATÉ 12x',
-        reais: '148'
+        incluso: 'INGRESSO INDIVIDUAL',
+        total: '158,88',
+        parcelado: '13,24'
     },
     badge: "🎁 Pré-Adorai no Hard Rock para os 200 primeiros",
     bonus: [
