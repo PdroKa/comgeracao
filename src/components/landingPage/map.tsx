@@ -34,7 +34,7 @@ export function Map() {
                 q="Colégio Marista Santa Maria,São+Lourenço,Curitiba"
             />
             <div className="w-full flex items-center justify-center">
-                <ButtonLink className="mt-10" href={'#princing'}>
+                <ButtonLink variant={'outline'} className="mt-10 border-2 hover:border-transparent border-zinc-100 bg-background" href={'#princing'}>
                     Garanta Já
                 </ButtonLink>
             </div>

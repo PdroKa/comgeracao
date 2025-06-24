@@ -63,7 +63,7 @@ export function About() {
                         />
                     </div>
                     <div className="w-full flex items-center justify-center">
-                        <ButtonLink href={'#princing'}>
+                        <ButtonLink variant={'outline'} href={'#princing'}>
                             Garanta Já
                         </ButtonLink>
                     </div>
