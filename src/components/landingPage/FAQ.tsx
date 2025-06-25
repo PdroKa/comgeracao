@@ -12,10 +12,10 @@ export function FAQ() {
     >
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         {/* 🔥 Header SEO + acessível */}
-        <header className="mx-auto max-w-2xl text-center">
+        <header className="mx-auto max-w-2xl text-start sm:text-center">
           <h2
             id="faq-heading"
-            className="text-balance text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground"
+            className="text-balance text-2xl sm:text-4xl lg:text-5xl font-extrabold text-foreground"
           >PERGUNTAS &
             <span className={`font-open text-primary`}> RESPOSTAS</span>
              

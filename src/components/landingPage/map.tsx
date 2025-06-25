@@ -7,16 +7,16 @@ type MapType = {
 export function Map() {
     const apiKey = process.env.GOOGLE_API_KEY!
     return (
-        <div id="local" className="scroll-mt-36">
+        <div id="local" className="scroll-mt-36 ">
             {/* 🔥 Header SEO + acessível */}
-            <header className="mx-auto max-w-2xl text-center my-4">
+            <header className="mx-auto max-w-2xl text-start sm:text-center my-4 px-4">
                 <h2
                     id="faq-heading"
-                    className="font-open text-balance text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground"
+                    className="font-open text-balance text-2xl sm:text-4xl lg:text-5xl font-extrabold text-foreground"
                 >
                     LOCAL
                 </h2>
-                <p className="mt-4 text-sm text-muted-foreground">
+                <p className="text-sm text-muted-foreground">
                     R. Prof. Joaquim de Matos Barreto, 98 - São Lourenço, Curitiba - PR
                 </p>
             </header>
