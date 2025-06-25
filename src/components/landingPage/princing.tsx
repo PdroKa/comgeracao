@@ -10,16 +10,17 @@ export function PrincingSection() {
             className="relative py-16 md:py-32 bg-background/90"
             aria-labelledby="princing-heading"
         >
-            <div className="mx-auto max-w-4xl px-4 md:px-0">
+            <div className="mx-auto max-w-4xl px-4">
                 <header className="mb-10 text-start sm:text-center">
                     <h2
                         id="princing-heading"
-                        className="text-xl md:text-5xl font-extrabold leading-tight text-foreground"
+                        className="text-2xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-foreground"
                     >
                         LOTE <span className="text-primary font-open">PRÉ-VENDA</span> ABERTO!
                     </h2>
-                    <p className="text-sm sm:text-lg text-muted-foreground max-w-6xl mx-auto md:mx-0">
-                        Garanta já: ingresso + Camiseta oficial + Ebook Pentecostes". <br />
+                    <p className="text-xs sm:text-base text-muted-foreground max-w-6xl mx-auto md:mx-0">
+                        Garanta já: ingresso + Camiseta oficial + Ebook Pentecostes". 
+                        <br />
                         <strong className="text-primary font-semibold">
                             Os 200 primeiros
                         </strong>{" "}
@@ -27,7 +28,7 @@ export function PrincingSection() {
                     </p>
                 </header>
 
-                <div className="bg-card text-card-foreground relative rounded-3xl border border-border shadow-xl">
+                <div className="bg-card text-card-foreground relative rounded-md border border-border shadow-xl">
                     <div className="grid items-center gap-6 divide-y md:grid-cols-2 md:divide-x md:divide-y-0 p-8 md:p-12">
 
                         {/* 🔥 Coluna esquerda */}

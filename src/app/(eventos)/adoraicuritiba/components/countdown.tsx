@@ -21,14 +21,16 @@ const CountdownDisplay = ({ days, hours, minutes, seconds }: any) => (
         aria-labelledby="princing-heading"
     >
         <div className="mx-auto max-w-4xl px-4 md:px-6">
-            <header className="mb-10 text-center">
+            <header className="mb-10 text-start sm:text-center">
                 <h2
                     id="princing-heading"
-                    className="text-2xl md:text-5xl font-extrabold leading-tight text-foreground"
+                    className="text-2xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-foreground"
                 >
-                    ESTÁ <span className="text-primary">CHEGANDO</span>
+                    ESTÁ <span className="text-primary">CHEGANDO</span> 
+                    <br />
+                    A PRÉ-VENDA
                 </h2>
-                <p className="mt-4 text-lg text-muted-foreground">
+                <p className="text-lg text-muted-foreground">
                     Faltam:
                 </p>
             </header>

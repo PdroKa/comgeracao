@@ -6,7 +6,7 @@ interface GradientHeadingProps {
 export function GradientH1({ children }: GradientHeadingProps) {
     return (
         <div className='w-full flex flex-col items-center justify-center overflow-hidden rounded-md'>
-            <h1 className="font-open mb-1 text-center text-2xl sm:text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">
+            <h1 className="font-open mb-1 text-center text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none  text-white">
                 {children}
             </h1>
             <div className="w-full relative">
