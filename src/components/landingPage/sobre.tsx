@@ -47,18 +47,17 @@ export function About() {
 
                     {/* Imagens */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
-                        <div className="relative rounded-lg">
+                        <div className="relative rounded-lg sm:mb-6 lg:mb-10">
                             <Image
-                                className="w-full rounded-lg"
+                                className="object-cover rounded-lg"
                                 src="/pictures/_MG_0087.avif"
                                 alt="Pessoas adorando no Adorai Curitiba"
-                                width={768}
-                                height={400}
-                                sizes="(max-width: 768px) 100vw, 768px"
+                                width={500}
+                                height={445}
                                 quality={50}
-                                loading="lazy"
+                                priority
                             />
-                            <div className="absolute inset-0 bg-background opacity-60 sm:mb-6 lg:mb-10 rounded-lg"></div>
+                            <div className="absolute inset-0 bg-background opacity-60 rounded-lg"></div>
                             <div className="absolute inset-0 flex items-center justify-center opacity-60">
                                 <p className="text-white text-sm font-bold ">
                                     EM ESPIRITO E VERDADE
@@ -67,14 +66,13 @@ export function About() {
                         </div>
                         <div className="relative rounded-lg sm:mt-6 lg:mt-10">
                             <Image
-                                className="w-full rounded-lg"
+                                className="rounded-lg object-cover"
                                 src="/pictures/_MG_0128.avif"
                                 alt="Homem em meio ao povo adorando"
-                                width={768}
-                                height={400}
-                                sizes="(max-width: 768px) 100vw, 768px"
+                                width={500}
+                                height={445}
                                 quality={50}
-                                loading="lazy"
+                                priority
                             />
                             <div className="absolute inset-0 bg-background opacity-50 rounded-lg"></div>
                             <div className="absolute inset-0 flex items-center justify-center">
