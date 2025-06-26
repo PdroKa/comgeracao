@@ -52,8 +52,8 @@ export function About() {
                                 className="w-full rounded-lg"
                                 src="/pictures/_MG_0087.avif"
                                 alt="Pessoas adorando no Adorai Curitiba"
-                                width={1920}
-                                height={1080}
+                                width={768}
+                                height={400}
                                 sizes="(max-width: 768px) 100vw, 768px"
                                 quality={50}
                                 loading="lazy"
@@ -69,9 +69,9 @@ export function About() {
                             <Image
                                 className="w-full rounded-lg"
                                 src="/pictures/_MG_0128.avif"
-                                alt="Adoração"
-                                width={1920}
-                                height={1080}
+                                alt="Homem em meio ao povo adorando"
+                                width={768}
+                                height={400}
                                 sizes="(max-width: 768px) 100vw, 768px"
                                 quality={50}
                                 loading="lazy"
