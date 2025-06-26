@@ -55,6 +55,8 @@ export function About() {
                                 width={1920}
                                 height={1080}
                                 sizes="(max-width: 768px) 100vw, 768px"
+                                quality={50}
+                                loading="lazy"
                             />
                             <div className="absolute inset-0 bg-background opacity-60 sm:mb-6 lg:mb-10 rounded-lg"></div>
                             <div className="absolute inset-0 flex items-center justify-center opacity-60">
@@ -71,6 +73,8 @@ export function About() {
                                 width={1920}
                                 height={1080}
                                 sizes="(max-width: 768px) 100vw, 768px"
+                                quality={50}
+                                loading="lazy"
                             />
                             <div className="absolute inset-0 bg-background opacity-50 rounded-lg"></div>
                             <div className="absolute inset-0 flex items-center justify-center">
