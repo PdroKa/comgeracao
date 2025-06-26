@@ -16,26 +16,41 @@ export const faqItems: FaqItems[] = [
         id: '2',
         pergunta: 'QUANDO E ONDE O EVENTO SERÁ REALIZADO?',
         resposta:
-            `Serão dois dias de evento: 11/10 (00h às 00h) e 12/10 (00h às 00h).
+            `Serão dois dias de evento: 11/10 (14h às 21h30) e 12/10 (07h às 19h).
             Endereço: R. Prof. Joaquim de Matos Barreto, 98 - São Lourenço, Curitiba - PR.`
     },
     {
         id: '3',
         pergunta: 'COMO VAI FUNCIONAR?',
         resposta:
-            `Serão 2 dias intensos com Santa Missa, Adoração, teatro e 99 pregações por dia. Espero ver você participando de todos esses momentos!
+            `Serão 2 dias intensos com Santa Missa, Adoração, teatro e pregações. Espero ver você participando de todos esses momentos!
 Em breve traremos mais informações. Fique ligado no nosso Instagram: @comgeracao `
     },
     {
         id: '4',
-        pergunta: 'Posso transferir minha inscrição para outra pessoa?',
+        pergunta: 'Terá Santa Missa?',
         resposta:
-            'Sim! É possível transferir sua inscrição, mas você deve comunicar nossa equipe com no mínimo 7 dias de antecedência do evento.',
+            `Sim, haverá Santa Missa em ambos os dias. 
+            Sábado: 16h00 
+            Domingo: 8h00`,
     },
     {
         id: '5',
+        pergunta: 'Minha alimentação está inclusa?',
+        resposta:
+            `Não. A alimentação é de responsabilidade do participante.`,
+    },
+    {
+        id: '6',
         pergunta: 'E se eu não puder comparecer? Tenho reembolso?',
         resposta:
-            'Não realizamos reembolso, pois sua inscrição garante toda a preparação antecipada do evento. Porém, ela é transferível para outra pessoa.',
+            `Prazo para Solicitação de Reembolso, O participante poderá solicitar o reembolso do valor do ingresso até 7 dias após a compra.
+        Para solicitar o reembolso, o participante deverá enviar um e-mail para eventos@comunidadegeracao.com.br`,
+    },    
+    {
+        id: '7',
+        pergunta: 'Posso transferir minha inscrição para outra pessoa?',
+        resposta:
+            'Sim! É possível transferir sua inscrição, mas você deve comunicar nossa equipe com no mínimo 7 dias de antecedência do evento.',
     },
 ]
