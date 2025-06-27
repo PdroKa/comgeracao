@@ -19,9 +19,9 @@ export const DataPrincing: Princing = {
         total: '159,90',
         parcelado: '13,32'
     },
-    badge: "🎁 Pré-Adorai no Hard Rock para os 200 primeiros",
+    badge: "🎁 Pré-Adorai no Hard Rock para os 100 primeiros",
     bonus: [
-        "🎁 200 Primeiros:  Pré Adorai no HARD-ROCK CAFÉ",
+        "🎁 100 Primeiros:  Pré Adorai no HARD-ROCK CAFÉ",
         "🎁 Bônus:  Camiseta oficial",
         //"🎁 Bônus:  Entrada antecipada no dia 12",
         "🎁 Bônus:  Ebook digital exclusivo",
