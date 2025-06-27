@@ -4,7 +4,7 @@ type Princing = {
     preco: {
         incluso: string
         total: string | number
-        parcelado: string | number
+        parcelado: any
     }
     badge?: string
     bonus?: string[]
@@ -16,8 +16,8 @@ export const DataPrincing: Princing = {
     lote: "Lote de pré-venda — Vagas limitadas",
     preco: {
         incluso: 'INGRESSO INDIVIDUAL',
-        total: '158,88',
-        parcelado: '13,24'
+        total: '159,90',
+        parcelado: '13,32'
     },
     badge: "🎁 Pré-Adorai no Hard Rock para os 200 primeiros",
     bonus: [
@@ -31,6 +31,6 @@ export const DataPrincing: Princing = {
         'Pulseira de identificação estilizada do evento',
         'Momento de Consagração A Nossa Senhora',
         'Pregações e ministrações impactantes',
-        'Espaço de adoração',
+        'Tenda Profética',
     ],
 }
