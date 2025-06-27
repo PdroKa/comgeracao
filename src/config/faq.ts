@@ -38,17 +38,24 @@ Em breve traremos mais informações. Fique ligado no nosso Instagram: @comgerac
         id: '5',
         pergunta: 'Minha alimentação está inclusa?',
         resposta:
-            `Não. A alimentação é de responsabilidade do participante.`,
+            `A alimentação não está inclusa, sendo de responsabilidade de cada participante. 
+            Mas fique tranquilo(a), teremos food trucks no local com várias opções para você se alimentar bem durante o evento`,
     },
     {
         id: '6',
+        pergunta: 'Comprei meu ingresso no ano passado. Posso ir nos dois dias?',
+        resposta:
+            `Simmm! Pode ficar tranquilo(a), quem comprou o ingresso no Adorai 2024 tá garantido pros dois dias. Te espero lá, hein? 😄🙌`,
+    },
+    {
+        id: '7',
         pergunta: 'E se eu não puder comparecer? Tenho reembolso?',
         resposta:
             `Prazo para Solicitação de Reembolso, O participante poderá solicitar o reembolso do valor do ingresso até 7 dias após a compra.
         Para solicitar o reembolso, o participante deverá enviar um e-mail para eventos@comunidadegeracao.com.br`,
     },    
     {
-        id: '7',
+        id: '8',
         pergunta: 'Posso transferir minha inscrição para outra pessoa?',
         resposta:
             'Sim! É possível transferir sua inscrição, mas você deve comunicar nossa equipe com no mínimo 7 dias de antecedência do evento.',
