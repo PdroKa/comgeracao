@@ -33,7 +33,7 @@ export function About() {
                             <strong>
                                 Você está pronto para fazer parte dessa história?
                             </strong>
-                            Um encontro que não apenas impactará sua vida, mas também tocará profundamente aqueles ao seu redor. Prepare-se para momentos inesquecíveis de <strong>adoração profunda</strong>, <strong>pregações avivalistas</strong> e a <strong>presença real de Jesus</strong>.
+                            {' '}Um encontro que não apenas impactará sua vida, mas também tocará profundamente aqueles ao seu redor. Prepare-se para momentos inesquecíveis de <strong>adoração profunda</strong>, <strong>pregações avivalistas</strong> e a <strong>presença real de Jesus</strong>.
                             O convite está lançado:
                             <strong className="bg-background text-secondary px-1 font-bold">
                                 venha, desperte, transforme!
