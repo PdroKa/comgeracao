@@ -103,7 +103,7 @@ function ButtonWhatsApp({
   href: string | UrlObject;
 } & React.ButtonHTMLAttributes<HTMLButtonElement> & VariantProps<typeof buttonVariants>) {
   return (
-    <Link title={children} href={href} className={`fixed bottom-4 right-4 z-50 bg-transparent hover:scale-110 ${className}`}>
+    <Link target="_blank" title={children} href={href} className={`fixed bottom-4 right-4 z-50 bg-transparent hover:scale-110 ${className}`}>
       <Image
         src={'/whatssapp.svg'}
         width={50}
