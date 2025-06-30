@@ -27,7 +27,7 @@ export default function AdoraiCuritiba() {
       <FAQ />
       <Map />
       <FooterAdoraiCwb />
-      <ButtonWhatsApp href={'#WhatsApp'} children='Entre no grupo do WhatsApp' />
+      <ButtonWhatsApp href={'https://chat.whatsapp.com/BWwZCEK1d7S3VYQZAj6o49'} children='Entre no grupo do WhatsApp' />
     </div>
   );
 }
