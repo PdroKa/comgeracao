@@ -3,16 +3,7 @@ import { PrincingSection } from "@/components/landingPage/princing";
 import React from "react";
 import Countdown from "react-countdown";
 
-type TimeUnitProps = { value: number; label: string };
 
-const TimeUnit = React.memo(({ value, label }: TimeUnitProps) => (
-    <div className="flex flex-col items-center">
-        <span className="text-3xl md:text-5xl font-bold">
-            {value.toString().padStart(2, "0")}
-        </span>
-        <span className="text-sm font-medium text-muted-foreground">{label}</span>
-    </div>
-));
 
 const CountdownDisplay = ({ days, hours, minutes, seconds }: any) => (
     <section
@@ -26,7 +17,7 @@ const CountdownDisplay = ({ days, hours, minutes, seconds }: any) => (
                     id="princing-heading"
                     className="text-2xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-foreground"
                 >
-                    ESTÁ <span className="text-primary">CHEGANDO</span> 
+                    ESTÁ <span className="text-primary">CHEGANDO</span>
                     <br />
                     A PRÉ-VENDA
                 </h2>
@@ -44,6 +35,17 @@ const CountdownDisplay = ({ days, hours, minutes, seconds }: any) => (
         </div>
     </section>
 );
+
+type TimeUnitProps = { value: number; label: string };
+
+const TimeUnit = React.memo(({ value, label }: TimeUnitProps) => (
+    <div className="flex flex-col items-center">
+        <span className="text-3xl md:text-5xl font-bold">
+            {value.toString().padStart(2, "0")}
+        </span>
+        <span className="text-sm font-medium text-muted-foreground">{label}</span>
+    </div>
+));
 
 export function CountdownTimer() {
     return (
