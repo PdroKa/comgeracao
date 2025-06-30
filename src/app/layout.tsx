@@ -1,6 +1,7 @@
 import "@/app/globals.css";
 import { Roboto, Open_Sans } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/next"
 import { SmoothScrollToHash } from "@/app/lib/SmoothScrollToHash";
 import { Metadata } from "next";
 
@@ -49,6 +50,7 @@ export default function RootLayout({
         cz-shortcut-listen="true"
         className={` bg-background text-white antialiased scroll-smooth`}>
         <SmoothScrollToHash />
+        <Analytics />
         {children}
       </body>
       <GoogleAnalytics gaId="G-YCQ09E7RWN" />
