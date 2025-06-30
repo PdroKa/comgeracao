@@ -19,7 +19,7 @@ export const members = [
     {
         name: 'Gil Motta',
         role: 'Fundador da comunidade Metanoia',
-        avatar: '/S-JPII.png',
+        avatar: '/web-app-manifest-192x192.png',
     },
     {
         name: 'William Bernardo',
@@ -29,12 +29,12 @@ export const members = [
     {
         name: 'Padre Fernando',
         role: 'Diretor espiritual',
-        avatar: '/S-JPII.png',
+        avatar: '/web-app-manifest-192x192.png',
     },
     {
         name: 'Padre ?',
         role: 'Padre ?',
-        avatar: '/S-JPII.png',
+        avatar: '/web-app-manifest-192x192.png',
     },
 ]
 

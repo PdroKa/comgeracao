@@ -29,6 +29,9 @@ export function TeamSection() {
                                     width={250}
                                     height={250}
                                     alt={`Foto de ${member.name}`}
+                                    placeholder="blur"
+                                    blurDataURL={member.avatar}
+                                    quality={70}
                                     className="w-full h-full object-cover hover:scale-110 transition-transform"
                                     loading="lazy"
                                 />
