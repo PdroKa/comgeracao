@@ -3,9 +3,10 @@
 import { Button } from "../ui/button";
 import { useEffect } from "react";
 
-export function ButtonEinscricao({ children, className, ...props }: {
+export function ButtonEinscricao({ children, className, size, ...props }: {
     children: React.ReactNode,
-    className?: string
+    className?: string,
+    size?: "default" | "ghost" | "sm" | "lg" | "icon" | null | undefined
 }) {
 
     useEffect(() => {
@@ -18,7 +19,8 @@ export function ButtonEinscricao({ children, className, ...props }: {
     return (
         <Button
             {...props}
-            className={`w-full md:w-auto text-base font-semibold ${className}`}
+            size={size}
+            className={`w-full text-base font-semibold ${className}`}
             data-einscricao-event="97574"
             data-einscricao-url="https://checkout.einscricao.app/"
             data-einscricao-api-url="https://www.e-inscricao.com"
