@@ -60,9 +60,9 @@ export function PrincingSection() {
                                 </p>
                             </div>
                             <div className='relative flex items-center justify-center overflow-hidden w-full'>
-                                <ButtonEinscricao className='text-sm'>
+                                <ButtonLink className='text-sm' href='/adoraicuritiba/checkout'>
                                     GARANTIR MINHA VAGA
-                                </ButtonEinscricao>
+                                </ButtonLink>
                             </div>
                             <p className="mt-3 sm:mt-10 text-xs sm:text-sm text-gray-600 leading-relaxed">
                                 Acesso completo ao evento: pregações, momentos de louvor, oração, espaços de adoração e muito mais.
