@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 // }
 
 import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { ShoppingBag, Truck, Shield, RotateCcw, Clock } from "lucide-react";
@@ -76,8 +76,11 @@ function OrderSummary() {
 
     return (
         <Card className="bg-gray-50">
+            <CardHeader>
+                <h2 className="text-xl font-bold">Sumario</h2>
+            </CardHeader>
             <CardContent className="p-6 space-y-6">
-                <h2 className="text-xl font-bold">Order Summary</h2>
+
 
                 <div className="space-y-3">
                     <div className="flex justify-between">
