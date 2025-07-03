@@ -26,84 +26,111 @@ import React from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { ShoppingBag, Truck, Shield, RotateCcw, Clock } from "lucide-react";
+import { ShoppingBag, Truck, Shield, RotateCcw, Clock, Check, Ticket, Tickets } from "lucide-react";
 import Image from "next/image";
+import { DataPrincing } from "@/config/princingSchema";
+import { ButtonEinscricao } from "@/components/e-inscricao/button";
 
+const { titleIngresso, beneficios, bonus, preco, lote, } = DataPrincing
 function ProductDetails() {
     return (
-        <div className="flex flex-col space-y-6 bg-white p-6 rounded-lg">
-            <div className="text-sm mb-6 bg-zinc-300">
+        <div className="flex flex-col text-sm sm:text-base space-y-6 bg-white text-card-foreground rounded-md overflow-hidden">
+            <div className="mb-6 p-4 bg-zinc-300 text-sm sm:text-base">
                 <h4>Meu ingresso</h4>
             </div>
-            <div className="flex flex-col md:flex-row gap-8">
-                <div className="flex-1">
-                    <img
-                        src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80"
-                        alt="T-Shirt"
-                        className="w-full h-auto rounded-lg object-cover"
+            <div className="flex flex-col-reverse md:flex-row gap-8 p-4">
+                <div className="flex-1/3 relative">
+                    <Image
+                        src="/pictures/Camiseta-oficial-verdadeiros-adoradores.avif"
+                        alt="Camiseta oficial Verdadeiros adoradores"
+                        width={400}
+                        height={500}
+                        className="rounded-md"
                     />
-                </div>
-                <div className="flex-1 space-y-4">
-                    <h1 className="text-3xl font-bold">Premium Cotton T-Shirt</h1>
-                    <p className="text-2xl font-semibold text-primary">$29.99</p>
-                    <div className="space-y-2">
-                        <p className="text-sm font-medium">Selected Size: Medium</p>
-                        <p className="text-sm font-medium">Selected Color: Navy Blue</p>
+                    <div className="absolute md:h-56 inset-0 flex items-start justify-end opacity-80">
+                        <p className="text-white !text-xs font-bold text-center bg-zinc-800 w-full">
+                            BONUS PRÉ-VENDA
+                        </p>
                     </div>
-                    <p className="text-gray-600">
-                        Our premium cotton t-shirt offers unmatched comfort and durability.
-                        Made from 100% organic cotton, this shirt features a modern fit,
-                        reinforced seams, and maintains its shape after multiple washes.
-                    </p>
+                </div>
+                <div className="space-y-4">
+                    <div className='text-sm'>
+                        <div className='mb-4'>
+                            <h3 className="sm:hidden text-base sm:text-xl font-semibold">{titleIngresso.toUpperCase()}</h3>
+                            <p className="sm:hidden text-xs sm:text-sm text-gray-600">{lote}</p>
+                        </div>
+
+                        <h4 className='font-bold text-sm mx-6 mb-1'>Benefícios do ingresso</h4>
+                        <ul className="space-y-2">
+                            {beneficios.map((beneficio, index) => (
+                                <li key={`beneficio-${index}`} className="flex items-end gap-3">
+                                    <Check width={20} height={20} className="text-green-500 mt-1 shrink-0" />
+                                    <span className="leading-snug">
+                                        {beneficio}
+                                    </span>
+                                </li>
+                            ))}
+
+                            <div className='border-b border-6 bg-background'></div>
+
+                            {bonus && bonus.map((item, index) => (
+                                <li key={`bonus-${index}`} className="flex items-center gap-3">
+                                    <Check width={20} height={20} className="text-yellow-500 mt-1 shrink-0" />
+                                    <span className="text-sm leading-snug font-semibold">
+                                        {item}
+                                    </span>
+                                </li>
+                            ))}
+                        </ul>
+
+                        <p className="mt-6 text-xs sm:text-sm text-muted-foreground">
+                            Participe de um dos maiores eventos católicos de Curitiba. Junte-se a milhares de adoradores em um mover profético e transformador.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     );
 };
 
-const BenefitsSection = () => {
-
-    return (
-        <>
-        </>
-    );
-};
-
 function OrderSummary() {
-    const subtotal = 29.99;
-    const shipping = 0;
-    const total = subtotal + shipping;
-
     return (
-        <Card className="bg-gray-50">
-            <CardHeader>
-                <h2 className="text-xl font-bold">Sumario</h2>
+        <Card className="bg-gray-50 text-sm sm:text-base">
+            <CardHeader className="text-sm sm:text-base p-4 bg-zinc-300">
+                <h4>Resumo do ingresso</h4>
             </CardHeader>
-            <CardContent className="p-6 space-y-6">
-
-
+            <CardContent className="p-6 space-y-4">
                 <div className="space-y-3">
                     <div className="flex justify-between">
-                        <span className="text-gray-600">Subtotal</span>
-                        <span>${subtotal.toFixed(2)}</span>
-                    </div>
-                    <div className="flex justify-between">
-                        <span className="text-gray-600">Shipping</span>
-                        <span>VALOR</span>
+                        <span className="text-gray-600">{`${titleIngresso} | ${lote}`}</span>
+                        <span>R$&nbsp;{preco.total}</span>
                     </div>
                     <Separator />
-                    <div className="flex justify-between font-bold">
+                    <div className="flex justify-between items-center">
                         <span>Total</span>
-                        <span>${total.toFixed(2)}</span>
+                        <div className="flex flex-col text-sm items-end">
+                            <p className="text-gray-800">
+                                {"12x "}
+                                <strong className="text-sm sm:text-xl">
+                                    R$&nbsp;{preco.parcelado}
+                                </strong>
+                            </p>
+                            <p className="text-gray-700">
+                                {"ou "}
+                                <strong>
+                                    R$&nbsp;{preco.total}
+                                </strong> {" à vista"}
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <Button className="w-full py-6 text-lg" size="lg">
-                    <ShoppingBag className="mr-2 h-5 w-5" />
-                    Buy Now
-                </Button>
+                <ButtonEinscricao className="w-full py-6 text-sm sm:text-base" size="lg">
+                    <Ticket className="mr-2" />
+                    Garanta já seu ingresso
+                </ButtonEinscricao>
 
-                <p className="text-xs text-center text-gray-500 mt-4">
+                <p className="text-xs text-center text-gray-500 mt-2 sm:mt-4">
                     Secure checkout powered by Stripe. Your payment information is
                     encrypted.
                 </p>
@@ -131,8 +158,6 @@ export default function Checkout() {
                     </div>
                 </div>
             </main>
-
-
         </div>
     );
 }
