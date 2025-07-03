@@ -13,7 +13,7 @@ type Princing = {
 
 export const DataPrincing: Princing = {
     titleIngresso: "Ingresso Adorai Curitiba",
-    lote: "Lote de pré-venda — Vagas limitadas",
+    lote: "Pré-venda",
     preco: {
         incluso: 'INGRESSO INDIVIDUAL',
         total: '159,90',
