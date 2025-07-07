@@ -8,7 +8,7 @@ export const members = [
     },
     {
         name: 'Eduardo Oliveira',
-        role: 'Missionário Com. Filhos de João Batista',
+        role: 'Missionário Comunidade Filhos de João Batista',
         avatar: '/pregadores/Eduardo.avif',
     },
     {
@@ -28,7 +28,7 @@ export const members = [
     },
     {
         name: 'Padre Fernando',
-        role: 'Diretor espiritual da Com. Geração de Adoradores',
+        role: 'Diretor espiritual da Comunidade Geração de Adoradores',
         avatar: '/pregadores/Fernando.avif',
     },
     {
