@@ -19,7 +19,7 @@ export function PrincingSection() {
                         LOTE <span className="text-primary font-open">PRÉ-VENDA</span> ABERTO!
                     </h2>
                     <p className="text-xs sm:text-base text-muted-foreground max-w-6xl mx-auto md:mx-0">
-                        Garanta já: ingresso + Camiseta oficial + Ebook Pentecostes". 
+                        Garanta já: ingresso + Camiseta oficial. 
                         <br />
                         <strong className="text-primary font-semibold">
                             Os 200 primeiros
