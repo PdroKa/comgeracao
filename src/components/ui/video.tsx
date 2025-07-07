@@ -6,7 +6,7 @@ export function LiteYoutube() {
 
         <YouTubeEmbed
             params=''
-            videoid="kyiEboFeDd4"
+            videoid="qHoV4uBFeVA"
             playlabel="Adorai Curitiba 2025"
             style='
             margin-inline: auto;
