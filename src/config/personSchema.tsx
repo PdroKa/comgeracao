@@ -2,7 +2,7 @@ import Script from "next/script"
 
 export const members = [
     {
-        name: 'Moises Rocha',
+        name: 'Moisés Rocha',
         role: 'Fundador da Comunidade Filhos de João Batista',
         avatar: '/pregadores/Moises.avif',
     },
@@ -17,7 +17,7 @@ export const members = [
         avatar: '/pregadores/Ailton.avif',
     },
     {
-        name: 'Gil Motta',
+        name: 'Gill Motta',
         role: 'Fundador da Comunidade Metanoia',
         avatar: '/pregadores/Gill (1).avif',
     },
