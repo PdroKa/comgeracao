@@ -24,7 +24,7 @@ export const DataPrincing: Princing = {
         "🎁 100 Primeiros:  Pré Adorai no HARD-ROCK CAFÉ",
         "🎁 Bônus:  Camiseta oficial",
         //"🎁 Bônus:  Entrada antecipada no dia 12",
-        "🎁 Bônus:  Ebook digital exclusivo",
+        //"🎁 Bônus:  Ebook digital exclusivo",
     ],
     beneficios: [
         'Acesso completo aos dois dias de retiro',
