@@ -37,7 +37,7 @@ export function TeamSection() {
                                 />
                             </div>
                             <span className="mt-3 block text-base font-medium">{member.name}</span>
-                            <span className="text-muted-foreground block text-xs sm:text-sm">{member.role}</span>
+                            <span className="text-zinc-400 block text-xs sm:text-xs">{member.role}</span>
                         </div>
                     ))}
                 </div>

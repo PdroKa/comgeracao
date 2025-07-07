@@ -4,37 +4,37 @@ export const members = [
     {
         name: 'Moises Rocha',
         role: 'Fundador da Comunidade Filhos de João Batista',
-        avatar: '/pregadores/Moises-rocha.avif',
+        avatar: '/pregadores/Moises.avif',
     },
     {
         name: 'Eduardo Oliveira',
-        role: 'Pregador e Missionário Com.Filhos de João Batista',
-        avatar: '/pregadores/eduardo-oliveira.avif',
+        role: 'Missionário Com. Filhos de João Batista',
+        avatar: '/pregadores/Eduardo.avif',
     },
     {
         name: 'Padre Ailton',
         role: 'Fundador da Fraternidade São João Paulo II',
-        avatar: '/pregadores/padre-ailton.avif',
+        avatar: '/pregadores/Ailton.avif',
     },
     {
         name: 'Gil Motta',
-        role: 'Fundador da comunidade Metanoia',
-        avatar: '/web-app-manifest-192x192.png',
+        role: 'Fundador da Comunidade Metanoia',
+        avatar: '/pregadores/Gill (1).avif',
     },
     {
         name: 'William Bernardo',
-        role: 'Fundador da comunidade Geração de adoradores',
-        avatar: '/pregadores/William.avif',
+        role: 'Fundador da Comunidade Geração de Adoradores',
+        avatar: '/pregadores/Will.avif',
     },
     {
         name: 'Padre Fernando',
-        role: 'Diretor espiritual',
-        avatar: '/web-app-manifest-192x192.png',
+        role: 'Diretor espiritual de Com. Geração de Adoradores',
+        avatar: '/pregadores/Fernando.avif',
     },
     {
-        name: 'Padre ?',
-        role: 'Padre ?',
-        avatar: '/web-app-manifest-192x192.png',
+        name: 'Padre Clayton Munhoz',
+        role: 'Assessor do Setor Juventude',
+        avatar: '/pregadores/Clayton.avif'
     },
 ]
 
