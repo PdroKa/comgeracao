@@ -5,7 +5,7 @@ type NavigationItem = {
 
 export const navigationItems: NavigationItem[] = [
     {
-        title: 'OQUE É',
+        title: 'O QUE É',
         href: '#sobre',
     },
     {

@@ -22,13 +22,13 @@ export const members = [
         avatar: '/pregadores/Gill (1).avif',
     },
     {
-        name: 'William Bernardo',
+        name: 'Willian Bernardo',
         role: 'Fundador da Comunidade Geração de Adoradores',
         avatar: '/pregadores/Will.avif',
     },
     {
         name: 'Padre Fernando',
-        role: 'Diretor espiritual de Com. Geração de Adoradores',
+        role: 'Diretor espiritual da Com. Geração de Adoradores',
         avatar: '/pregadores/Fernando.avif',
     },
     {

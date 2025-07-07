@@ -26,12 +26,12 @@ export function About() {
                             <strong className="bg-background text-secondary px-1 font-bold">Imagine um evento onde o céu toca a terra</strong>
                             , onde corações são incendiados pelo amor de Deus e onde uma geração inteira se levanta para{" "}
                             <strong className="bg-background text-secondary px-1 font-bold">adorar em espírito e em verdade</strong>.
-                            Em 2024, vivemos o extraordinário — uma juventude despertando para o seu propósito.
+                            Em 2024, vivemos o extraordinário uma juventude despertando para o seu propósito.
                             <br />
                             Em 2025, será ainda maior.
 
                             <strong>
-                                Você está pronto para fazer parte dessa história?
+                                {' '}Você está pronto para fazer parte dessa história?
                             </strong>
                             {' '}Um encontro que não apenas impactará sua vida, mas também tocará profundamente aqueles ao seu redor. Prepare-se para momentos inesquecíveis de <strong>adoração profunda</strong>, <strong>pregações avivalistas</strong> e a <strong>presença real de Jesus</strong>.
                             O convite está lançado:
