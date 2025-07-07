@@ -22,7 +22,7 @@ export function PrincingSection() {
                         Garanta já: ingresso + Camiseta oficial. 
                         <br />
                         <strong className="text-primary font-semibold">
-                            Os 200 primeiros
+                            Os 100 primeiros
                         </strong>{" "}
                         ganham acesso ao <strong>Pré-Adorai no Hard Rock!</strong>
                     </p>
