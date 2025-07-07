@@ -28,7 +28,7 @@ export default function AdoraiCuritiba() {
       <Map />
       <FooterAdoraiCwb />
       <ButtonWhatsApp
-        href={'https://api.whatsapp.com/send/?phone=%2B554199301105&text=Bom%20dia%20gera%C3%A7%C3%A3o%2C%20Tudo%20bem%3F%0AGostaria%20de%20tirar%20uma%20duvida&type=phone_number&app_absent=0'}
+        href={'https://api.whatsapp.com/send/?phone=%2B554199301105&text=%20Oi%20gera%C3%A7%C3%A3o%2C%20Tudo%20bem%3F%0AGostaria%20de%20tirar%20uma%20duvida&type=phone_number&app_absent=0'}
         children='Entre no grupo do WhatsApp' />
     </div>
   );
