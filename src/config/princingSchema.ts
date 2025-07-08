@@ -27,7 +27,7 @@ export const DataPrincing: Princing = {
         //"🎁 Bônus:  Ebook digital exclusivo",
     ],
     beneficios: [
-        'Acesso completo aos dois dias de retiro',
+        'Acesso completo aos dois dias de evento',
         'Pulseira de identificação estilizada do evento',
         'Momento de Consagração A Nossa Senhora',
         'Pregações e ministrações impactantes',
