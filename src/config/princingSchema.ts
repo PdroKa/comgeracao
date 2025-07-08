@@ -23,7 +23,7 @@ export const DataPrincing: Princing = {
     bonus: [
         "🎁 100 Primeiros:  Pré Adorai no HARD-ROCK CAFÉ",
         "🎁 Bônus:  Camiseta oficial",
-        //"🎁 Bônus:  Entrada antecipada no dia 12",
+        "🎁 Bônus:  Pulseira em tecido personalizada do evento",
         //"🎁 Bônus:  Ebook digital exclusivo",
     ],
     beneficios: [
