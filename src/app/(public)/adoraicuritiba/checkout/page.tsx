@@ -17,7 +17,7 @@ function ProductDetails() {
                 <h4>Meu ingresso</h4>
             </div>
             <div className="flex flex-col-reverse md:flex-row gap-8 p-4">
-                <div className="flex-1/3 relative">
+                <div className="flex-1/4 relative">
 {/*                     <Image
                         src="/pictures/Camiseta-oficial-verdadeiros-adoradores.avif"
                         alt="Camiseta oficial Verdadeiros adoradores"
