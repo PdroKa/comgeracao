@@ -18,7 +18,7 @@ function ProductDetails() {
             </div>
             <div className="flex flex-col-reverse md:flex-row gap-8 p-4">
                 <div className="flex-1/3 relative">
-                    <Image
+{/*                     <Image
                         src="/pictures/Camiseta-oficial-verdadeiros-adoradores.avif"
                         alt="Camiseta oficial Verdadeiros adoradores"
                         width={400}
@@ -29,7 +29,7 @@ function ProductDetails() {
                         <p className="text-white !text-xs font-bold text-center bg-zinc-800 w-full">
                             BONUS PRÉ-VENDA
                         </p>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="space-y-4">
                     <div className='text-sm'>
@@ -109,7 +109,7 @@ function OrderSummary() {
                 </ButtonEinscricao>
 
                 <p className="text-xs text-center text-gray-500 mt-2 sm:mt-4">
-                    Secure checkout powered by Stripe. Your payment information is
+                    Secure checkout powered by e-inscricao. Your payment information is
                     encrypted.
                 </p>
             </CardContent>
