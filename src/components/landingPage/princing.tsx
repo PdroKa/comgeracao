@@ -16,15 +16,10 @@ export function PrincingSection() {
                         id="princing-heading"
                         className="text-2xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-foreground"
                     >
-                        LOTE <span className="text-primary font-open">PRÉ-VENDA</span> ABERTO!
+                         <span className="text-primary font-open">1° LOTE</span> ABERTO!
                     </h2>
                     <p className="text-xs sm:text-base text-muted-foreground max-w-6xl mx-auto md:mx-0">
-                        Garanta já: ingresso + Camiseta oficial. 
-                        <br />
-                        <strong className="text-primary font-semibold">
-                            Os 100 primeiros
-                        </strong>{" "}
-                        ganham acesso ao <strong>Pré-Adorai no Hard Rock!</strong>
+                        Garanta já: ingresso adorai curitiba 2025.                        
                     </p>
                 </header>
 
