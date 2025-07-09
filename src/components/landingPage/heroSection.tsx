@@ -43,7 +43,7 @@ export function HeroSection() {
                     <a href="#princing">
                         <Button className="inline-flex w-full justify-center items-center py-3 px-5 text-base font-medium text-center text-black rounded-lg 
                         bg-primary hover:bg-primary/80 transition-colors">
-                            Aproveitar Pré-venda
+                            Garantir Ingresso
                             <ArrowRight />
                         </Button>
                     </a>
