@@ -38,7 +38,7 @@ export function PrincingSection() {
                                 {/* PARCELADO */}
                                 <div className="flex flex-col !text-base items-start md:items-center">
                                     <p className="text-gray-800">
-                                        {"12x com juros"}
+                                        {"12x(com juros)"}
                                         <strong className="text-xl sm:text-3xl">
                                             R$&nbsp;{preco.parcelado}
                                         </strong>
