@@ -17,7 +17,7 @@ export const DataPrincing: Princing = {
     preco: {
         incluso: 'INGRESSO INDIVIDUAL',
         total: '119,90',
-        parcelado: '9,99'
+        parcelado: '9,99 + taxas'
     },
     badge: "🎁 Pré-Adorai no Hard Rock para os 100 primeiros",
     bonus: [
