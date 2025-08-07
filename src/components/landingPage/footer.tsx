@@ -31,7 +31,7 @@ export function FooterAdoraiCwb() {
                         rel="noopener noreferrer"
                         aria-label="WhatsApp"
                         className="text-muted-foreground hover:text-primary block">
-                        <MdOutlineWhatsapp size={24}/>
+                        <MdOutlineWhatsapp size={24} />
                     </Link>
                     <Link
                         href="https://www.instagram.com/adoraicuritiba/"
@@ -39,7 +39,7 @@ export function FooterAdoraiCwb() {
                         rel="noopener noreferrer"
                         aria-label="Instagram"
                         className="text-muted-foreground hover:text-primary block">
-                        <LuInstagram size={24}/>
+                        <LuInstagram size={24} />
                     </Link>
                     <Link
                         href="https://maps.app.goo.gl/koNzpWuN6nk8UD1t9"
@@ -47,10 +47,12 @@ export function FooterAdoraiCwb() {
                         rel="noopener noreferrer"
                         aria-label="GoogleMaps"
                         className="text-muted-foreground hover:text-primary block">
-                        <LuMapPin size={24}/>
+                        <LuMapPin size={24} />
                     </Link>
                 </div>
-                <span className="text-muted-foreground block text-center text-sm"> © {new Date().getFullYear()} Comunidade Geração de adoradores, All rights reserved</span>
+                <span className="text-muted-foreground block text-center text-sm">
+                     © {new Date().getFullYear()} Geração de Adoradores. Uma missão da Comunidade Católica para formar adoradores em espírito e verdade.
+                </span>
             </div>
         </footer>
     )
