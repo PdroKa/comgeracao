@@ -8,6 +8,7 @@ import { Check, Ticket } from "lucide-react";
 import Image from "next/image";
 import { DataPrincing } from "@/config/princingSchema";
 import { ButtonEinscricao } from "@/components/e-inscricao/button";
+import Link from "next/link";
 
 const { titleIngresso, beneficios, bonus, preco, lote, } = DataPrincing
 function ProductDetails() {
@@ -18,7 +19,7 @@ function ProductDetails() {
             </div>
             <div className="flex flex-col-reverse md:flex-row gap-8 p-4">
                 <div className="flex-1/4 relative">
-{/*                     <Image
+                    {/*                     <Image
                         src="/pictures/Camiseta-oficial-verdadeiros-adoradores.avif"
                         alt="Camiseta oficial Verdadeiros adoradores"
                         width={400}
@@ -127,7 +128,9 @@ export default function Checkout() {
             <div className="min-h-screen bg-background">
                 <header className="shadow-sm py-4">
                     <div className="container mx-auto px-4">
-                        <Image className="mx-auto block" width={65} height={65} src="/Logo-remove-240.png" alt="Logo, Adorai Curitiba" loading='lazy' />
+                        <Link href={'/adoraicuritiba'}>
+                            <Image className="mx-auto block" width={65} height={65} src="/Logo-remove-240.png" alt="Logo, Adorai Curitiba" loading='lazy' />
+                        </Link>
                     </div>
                 </header>
 

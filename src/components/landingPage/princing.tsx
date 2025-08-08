@@ -17,7 +17,7 @@ export function PrincingSection() {
                         id="princing-heading"
                         className="text-2xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-foreground"
                     >
-                         <span className="text-primary font-open">1° LOTE</span> ABERTO!
+                         <span className="text-primary font-open">{lote.toUpperCase()}</span> ABERTO!
                     </h2>
                     <p className="text-xs sm:text-base text-muted-foreground max-w-6xl mx-auto md:mx-0">
                         Garanta já: ingresso adorai curitiba 2025.                        
