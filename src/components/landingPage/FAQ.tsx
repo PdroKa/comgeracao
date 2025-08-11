@@ -1,4 +1,10 @@
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger
+}
+  from '@/components/ui/accordion'
 import { faqItems } from '@/config/faq'
 import Link from 'next/link'
 
@@ -18,7 +24,7 @@ export function FAQ() {
             className="text-balance text-2xl sm:text-4xl lg:text-5xl font-extrabold text-foreground"
           >PERGUNTAS &
             <span className={`font-open text-primary`}> RESPOSTAS</span>
-             
+
           </h2>
         </header>
 
@@ -33,15 +39,17 @@ export function FAQ() {
               <AccordionItem
                 key={item.id}
                 value={item.id}
-                className='border-border border-b rounded-md'
+                className='rounded-md mb-1'
               >
                 <AccordionTrigger className="px-6 py-4 cursor-pointer  
-                sm:text-base border-b-2 border-background font-semibold bg-card text-accent-foreground hover:no-underline">
+                sm:text-base border-b-2 font-semibold bg-card text-accent-foreground hover:no-underline">
                   {item.pergunta.toUpperCase()}
                 </AccordionTrigger>
 
                 <AccordionContent className='p-0 whitespace-pre-line' >
-                  <p className="bg-zinc-700 text-sm sm:text-base text-card rounded-md px-6 py-4 border">{item.resposta}</p>
+                  <p className="bg-zinc-700 text-sm sm:text-base text-card rounded-md px-6 py-4 border">
+                    {item.resposta}
+                  </p>
                 </AccordionContent>
               </AccordionItem>
             ))}

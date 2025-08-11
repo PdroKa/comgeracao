@@ -13,6 +13,9 @@ import { ButtonWhatsApp } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "Adorai Curitiba 2025 - Geracao de Adoradores",
   description: "Adorai Curitiba 2025 — Curitiba para Jesus, pelas mãos de Maria. Um evento onde o céu toca a terra e uma geração se levanta para adorar.",
+  pagination:{
+    next: "https://comgeracao.com.br/adoraicuritiba/checkout"
+  }
 }
 
 export default function AdoraiCuritiba() {
