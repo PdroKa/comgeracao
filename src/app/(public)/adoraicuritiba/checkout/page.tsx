@@ -120,7 +120,10 @@ function OrderSummary() {
 
 export const metadata: Metadata = {
     title: "Ingressos Adorai Curitiba 2025 | Garanta sua vaga",
-    description: "Garanta seu ingresso para o Adorai Curitiba 2025. Dois dias de avivamento, adoração e intimidade com Deus."
+    description: "Garanta seu ingresso para o Adorai Curitiba 2025. Dois dias de avivamento, adoração e intimidade com Deus.",
+    pagination: {
+        next: "https://comgeracao.com.br/adoraicuritiba"
+    }
 };
 export default function Checkout() {
     return (
