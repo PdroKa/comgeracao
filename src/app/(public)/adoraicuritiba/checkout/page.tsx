@@ -1,4 +1,3 @@
-import React from "react";
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import Loading from "./loading";
@@ -18,8 +17,8 @@ function ProductDetails() {
                 <h4>Meu ingresso</h4>
             </div>
             <div className="flex flex-col-reverse md:flex-row gap-8 p-4">
-                <div className="flex-1/4 relative">
-                    {/*                     <Image
+                {/* <div className="flex-1/4 relative">
+                    <Image
                         src="/pictures/Camiseta-oficial-verdadeiros-adoradores.avif"
                         alt="Camiseta oficial Verdadeiros adoradores"
                         width={400}
@@ -30,11 +29,11 @@ function ProductDetails() {
                         <p className="text-white !text-xs font-bold text-center bg-zinc-800 w-full">
                             BONUS PRÉ-VENDA
                         </p>
-                    </div> */}
-                </div>
+                    </div>
+                </div> */}
                 <div className="space-y-4">
-                    <div className='text-sm'>
-                        <div className='mb-4'>
+                    <div className='text-sm sm:text-base'>
+                        <div>
                             <h3 className="sm:hidden text-base sm:text-xl font-semibold">{titleIngresso.toUpperCase()}</h3>
                             <p className="sm:hidden text-xs sm:text-sm text-gray-600">{lote}</p>
                         </div>
