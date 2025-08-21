@@ -8,8 +8,9 @@ export function PrincingSection() {
     const { titleIngresso, beneficios, bonus, preco, lote, } = DataPrincing
     return (
         <section
-            className="relative py-16 md:py-32 bg-background/90"
+            className="relative py-16 md:py-32 bg-background/90 scroll-mt-20 sm:scroll-mt-0"
             aria-labelledby="princing-heading"
+            id="princing"
         >
             <div className="mx-auto max-w-4xl px-4">
                 <header className="mb-10 text-start sm:text-center">
