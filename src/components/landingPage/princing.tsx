@@ -18,10 +18,10 @@ export function PrincingSection() {
                         id="princing-heading"
                         className="text-2xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-foreground"
                     >
-                         <span className="text-primary font-open">{lote.toUpperCase()}</span> ABERTO!
+                        <span className="text-primary font-open">{lote.toUpperCase()}</span> ABERTO!
                     </h2>
                     <p className="text-xs sm:text-base text-muted-foreground max-w-6xl mx-auto md:mx-0">
-                        Garanta já: ingresso adorai curitiba 2025.                        
+                        Garanta já: ingresso adorai curitiba 2025.
                     </p>
                 </header>
 
@@ -84,19 +84,9 @@ export function PrincingSection() {
                                     </li>
                                 ))}
 
-                                <div className='border-b border-6 bg-background'></div>
-
-                                {bonus && bonus.map((item, index) => (
-                                    <li key={`bonus-${index}`} className="flex items-center gap-3">
-                                        <Check width={20} height={20} className="text-yellow-500 mt-1 shrink-0" />
-                                        <span className="text-sm leading-snug font-semibold">
-                                            {item}
-                                        </span>
-                                    </li>
-                                ))}
                             </ul>
 
-                            <p className="mt-6 text-xs sm:text-sm text-muted-foreground">
+                            <p className="mt-6 border-t-6 text-xs sm:text-sm text-zinc-600">
                                 Participe de um dos maiores eventos católicos de Curitiba. Junte-se a milhares de adoradores em um mover profético e transformador.
                             </p>
                         </div>
