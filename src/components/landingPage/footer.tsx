@@ -51,7 +51,7 @@ export function FooterAdoraiCwb() {
                     </Link>
                 </div>
                 <span className="text-muted-foreground block text-center text-sm">
-                     © {new Date().getFullYear()} Geração de Adoradores. Uma missão da Comunidade Católica para formar adoradores em espírito e verdade.
+                     © {new Date().getFullYear()} Geração de Adoradores. Uma missão para formar adoradores em espírito e verdade.
                 </span>
             </div>
         </footer>
