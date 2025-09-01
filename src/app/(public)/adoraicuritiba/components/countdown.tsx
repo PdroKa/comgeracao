@@ -1,6 +1,6 @@
 'use client'
 import { PrincingSection } from "@/components/landingPage/princing";
-import React from "react";
+import { memo } from "react";
 import Countdown from "react-countdown";
 
 
@@ -38,7 +38,7 @@ const CountdownDisplay = ({ days, hours, minutes, seconds }: any) => (
 
 type TimeUnitProps = { value: number; label: string };
 
-const TimeUnit = React.memo(({ value, label }: TimeUnitProps) => (
+const TimeUnit = memo(({ value, label }: TimeUnitProps) => (
     <div className="flex flex-col items-center">
         <span className="text-3xl md:text-5xl font-bold">
             {value.toString().padStart(2, "0")}
@@ -49,12 +49,12 @@ const TimeUnit = React.memo(({ value, label }: TimeUnitProps) => (
 
 export function CountdownTimer() {
     return (
-        <div id="princing" className="scroll-mt-20 sm:scroll-mt-0">
+        <div >
             <Countdown
                 date={new Date("2025-07-07T19:00:00")}
                 renderer={({ days, hours, minutes, seconds, completed }) =>
                     completed ? (
-                        <PrincingSection />
+                        <>Hello Word!</>
                     ) : (
                         <CountdownDisplay
                             days={days}

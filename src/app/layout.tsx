@@ -1,5 +1,5 @@
 import "@/app/styles/globals.css";
-import { Roboto} from "next/font/google";
+import { Roboto } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/next"
 import { SmoothScrollToHash } from "@/app/lib/SmoothScrollToHash";
@@ -7,7 +7,7 @@ import { Metadata } from "next";
 
 const roboto = Roboto({
   subsets: ["latin"],
-  weight: ["400", "500", "700", '900']
+  weight: ["400", "500", "700", "900"]
 })
 
 

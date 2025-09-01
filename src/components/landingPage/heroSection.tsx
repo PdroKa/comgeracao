@@ -1,4 +1,3 @@
-import { AlertTriangle, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { LiteYoutube } from '../ui/video'
 import Image from 'next/image'
@@ -45,7 +44,6 @@ export function HeroSection() {
                         <Button className="inline-flex w-full justify-center items-center py-3 px-5 text-base font-medium text-center text-black rounded-lg 
                         bg-primary hover:bg-primary/80 transition-colors">
                             Garantir Ingresso
-                            <ArrowRight />
                         </Button>
                     </a>
                 </div>

@@ -1,5 +1,5 @@
 import { GoogleMapsEmbed } from "@next/third-parties/google"
-import { ButtonLink } from "../ui/button"
+import { Button } from "../ui/button"
 
 type MapType = {
     apiKey: string
@@ -34,9 +34,13 @@ export function Map() {
                 q="Colégio Marista Santa Maria,São+Lourenço,Curitiba"
             />
             <div className="w-full flex items-center justify-center">
-                <ButtonLink variant={'outline'} className="mt-10 border-2 hover:border-transparent border-zinc-100 bg-background" href={'#princing'}>
-                    Garanta Já
-                </ButtonLink>
+                <a href={'#princing'}>
+                    <Button
+                        variant={'outline'}
+                        className="mt-10 border-2 hover:border-transparent border-zinc-100 bg-background">
+                        Garanta Já
+                    </Button>
+                </a>
             </div>
         </div>
     )
