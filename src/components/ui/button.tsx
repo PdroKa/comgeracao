@@ -1,4 +1,4 @@
-import * as React from "react"
+import { ComponentProps, ButtonHTMLAttributes, ReactNode } from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/app/lib/utils"
@@ -45,7 +45,7 @@ function Button({
   size,
   asChild = false,
   ...props
-}: React.ComponentProps<"button"> &
+}: ComponentProps<"button"> &
   VariantProps<typeof buttonVariants> & {
     asChild?: boolean
   }) {
@@ -69,10 +69,10 @@ function ButtonLink({
   href,
   ...props
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
   disabled?: boolean;
   href: string | UrlObject;
-} & React.ButtonHTMLAttributes<HTMLButtonElement> & VariantProps<typeof buttonVariants>) {
+} & ButtonHTMLAttributes<HTMLButtonElement> & VariantProps<typeof buttonVariants>) {
 
   if (disabled) {
     return (
@@ -101,7 +101,7 @@ function ButtonWhatsApp({
 }: {
   children: string;
   href: string | UrlObject;
-} & React.ButtonHTMLAttributes<HTMLButtonElement> & VariantProps<typeof buttonVariants>) {
+} & ButtonHTMLAttributes<HTMLButtonElement> & VariantProps<typeof buttonVariants>) {
   return (
     <Link target="_blank" title={children} href={href} className={`fixed bottom-4 right-4 z-50 bg-transparent hover:scale-110 ${className}`}>
       <Image
