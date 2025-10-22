@@ -14,7 +14,7 @@ export function HeroSection() {
                 muted
                 playsInline
                 preload="metadata"
-                poster="/og-image.avif" // imagem leve como fallback
+                poster="/pictures/acampaIA.jpg" // imagem leve como fallback
             />
             <div className="absolute inset-0 bg-gradient-to-b from-white/0 to-background z-[1]" />
             <div className="absolute inset-0 bg-black/40 z-[1]" />
