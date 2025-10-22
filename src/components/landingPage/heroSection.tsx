@@ -7,7 +7,7 @@ export function HeroSection() {
     return (
         <section className="relative w-full min-h-svh overflow-hidden sm:px-6">
             <video
-                src="/videos/acampaIA.mov"
+                src="/videos/acampaIA.mp4"
                 className="absolute inset-0 w-full h-full object-cover"
                 autoPlay
                 loop
