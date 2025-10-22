@@ -8,8 +8,8 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/',
-        destination: '/adoraicuritiba',
-        permanent: true
+        destination: '/',
+        permanent: false
       }
     ]
   }
