@@ -7,14 +7,14 @@ export function HeroSection() {
     return (
         <section className="relative w-full min-h-svh overflow-hidden sm:px-6">
             <video
-                src="/videos/acampaIA.mov"
+                src="/videos/acampaIA.mp4"
                 className="absolute inset-0 w-full h-full object-cover"
                 autoPlay
                 loop
                 muted
                 playsInline
                 preload="metadata"
-                poster="/og-image.avif" // imagem leve como fallback
+                poster="/pictures/acampaIA.jpg" // imagem leve como fallback
             />
             <div className="absolute inset-0 bg-gradient-to-b from-white/0 to-background z-[1]" />
             <div className="absolute inset-0 bg-black/40 z-[1]" />
