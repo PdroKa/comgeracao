@@ -19,7 +19,11 @@ export const metadata: Metadata = {
 }
 
 export default function AdoraiCuritiba() {
+const siteOnline = false;
 
+if (!siteOnline) {
+    return <CountdownTimer targetDate={new Date('2026-12-31T23:59:59')} />;
+}
   return (
     <div id="inicio" className="scroll-mt-36">
       <Header />
