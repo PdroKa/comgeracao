@@ -19,7 +19,7 @@ const CountdownDisplay = ({ days, hours, minutes, seconds }: any) => (
                 >
                     ESTÁ <span className="text-primary">CHEGANDO</span>
                     <br />
-                    A PRÉ-VENDA
+                  
                 </h2>
                 <p className="text-lg text-muted-foreground">
                     Faltam:
@@ -47,11 +47,11 @@ const TimeUnit = memo(({ value, label }: TimeUnitProps) => (
     </div>
 ));
 
-export function CountdownTimer() {
+export function CountdownTimer({ targetDate }: { targetDate: Date }) {
     return (
         <div >
             <Countdown
-                date={new Date("2025-07-07T19:00:00")}
+                date={targetDate}
                 renderer={({ days, hours, minutes, seconds, completed }) =>
                     completed ? (
                         <>Hello Word!</>

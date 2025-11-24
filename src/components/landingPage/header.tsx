@@ -1,6 +1,5 @@
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
-import { navigationItems } from "@/config/nativation";
 import { Menu } from "lucide-react";
 import Image from "next/image";
 
@@ -13,23 +12,14 @@ export function Header() {
             >
                 {/* Menu Desktop */}
                 <ul className="hidden md:flex gap-4 items-center">
-
-                    {navigationItems.map((link, index) => (
-                        link.title === 'INGRESSOS' ? null : (
-
-                            <li key={index} >
-                                <a href={link.href} className="text-sm font-medium hover:text-primary transition">
-                                    {link.title}
-                                </a>
-                            </li>
-                        )
-                    ))}
+                   
                 </ul>
 
                 {/* Logo centralizada */}
                 <div className="absolute left-1/2 transform -translate-x-1/2">
                     <a href="#inicio" aria-label="Ir para o topo da página">
-                        <Image  width={65} height={65} src="/Logo-remove-240.png" alt="Logo, Adorai Curitiba" priority />
+                        <Image width={65} height={65} src={'@/public/logo.png'} alt="Logo, Adorai Curitiba" priority
+                        />
                     </a>
                 </div>
 
@@ -37,7 +27,7 @@ export function Header() {
                 <div className="hidden md:flex">
                     <a href="#princing">
                         <Button variant="ghost" className="text-sm font-medium hover:text-primary px-0">
-                            INGRESSOS
+                            PARTICIPAR
                         </Button>
                     </a>
                 </div>
@@ -47,16 +37,16 @@ export function Header() {
                     <DropdownMenu >
                         <DropdownMenuTrigger asChild>
                             <Button variant="ghost" size="icon" aria-label="Abrir menu">
-                                <Menu  width={50} height={50} />
+                                <Menu width={50} height={50} />
                             </Button>
                         </DropdownMenuTrigger>
 
                         <DropdownMenuContent align="end" className="w-48">
-                            {navigationItems.map((link, index) => (
+                            {/* {navigationItems.map((link, index) => (
                                 <DropdownMenuItem key={index} asChild>
                                     <a href={link.href}>{link.title}</a>
                                 </DropdownMenuItem>
-                            ))}
+                            ))} */}
                         </DropdownMenuContent>
                     </DropdownMenu>
                 </div>
