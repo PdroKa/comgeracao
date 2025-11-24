@@ -22,13 +22,13 @@ export function HeroSection() {
             <div className="relative z-20 py-8 px-4 md:px-0 mx-auto max-w-4xl lg:py-12 grid lg:grid-cols-1 gap-16 sm:gap-10">
                 <div className="flex flex-col justify-center items-center">
                     <p className="mt-2 mb-8 md:text-2xl text-gray-200 font-semibold">
-                        {dadosEvento.data}
+                     DATA
                     </p>
                     <GradientH1>
-                        {dadosEvento.titulo}
+                      TITULO
                     </GradientH1>
                     <p className="mb-4 text-xs sm:text-sm font-normal lg:text-xl text-gray-200">
-                        {dadosEvento.subtitulo}
+                      SUBTITULO
                     </p>
                 </div>
 
