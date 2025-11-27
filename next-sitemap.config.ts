@@ -5,5 +5,5 @@ module.exports = {
   changefreq: 'weekly',
   priority: 0.7,
   sitemapSize: 5000,
-  exclude: ['/checkout'], // se quiser excluir rotas específicas
+  exclude: ['/adoraicuritiba/checkout'], // se quiser excluir rotas específicas
 }
