@@ -3,21 +3,24 @@ export function HeroCamp() {
         <main className="h-screen relative flex flex-col justify-center items-center text-center px-4">
             {/* VIDEO BACKGROUND */}
             <video
-                src="/videos/hero-acampa-completo-AI.WebM"
                 className="absolute inset-0 w-full h-full object-cover"
                 autoPlay
                 loop
                 muted
                 playsInline
                 preload="metadata"
-                poster="/pictures/acampaIA.jpg" // imagem leve como fallback
-            />
-            <div className="absolute inset-0 bg-gradient-to-b from-white/0 to-background z-[1]" />
+                poster="/pictures/acampaIA.jpg"
+            >
+                <source src="/videos/hero-acampa-completo-AI.webm" type="video/webm" />
+                <source src="/videos/hero-acampa-completo-AI.mp4" type="video/mp4" />
+            </video>
+            {/* OVERLAYS */}
+            <div className="absolute inset-0  from-white/0 to-background z-[1]" />
             <div className="absolute inset-0 bg-black/40 z-[1]" />
 
             {/* CONTEUDO HERO */}
             <header className="absolute z-20 top-7">
-                <h1>LOGO</h1>
+                <img src="/pictures/logo-acampa-removebg.png" alt="" className="w-40"/>
             </header>
 
             <section className="relative z-20  flex flex-col justify-center items-center text-center px-4">
