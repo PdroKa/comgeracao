@@ -26,14 +26,14 @@ export function HeroCamp() {
             <section className="relative z-20  flex flex-col justify-center items-center text-center px-4">
                 <h1 className="text-4xl md:text-5xl max-w-3xl leading-[150%]">
                     O ACAMPAMENTO QUE{" "}
-                    <span className="text-primary bg-white px-1">TRANSFORMA</span>{" "}
+                    <span className="text-green-800 bg-zinc-200 px-1">TRANSFORMA</span>{" "}
                     {" "}VIDAS
                 </h1>
 
                 <p className="mt-4">06-08 I MARÇO I 2026</p>
                 <a
                     href="#"
-                    className="mt-6 bg-primary text-white px-6 py-3 rounded font-semibold text-lg hover:scale-105 hover:bg-primary/80 transition"
+                    className="mt-6 bg-green-900 text-white px-6 py-3 rounded font-semibold text-lg hover:scale-105 hover:bg-green-800/80 transition"
                 >
                     FAÇA SUA INSCRIÇÃO AGORA
                 </a>
