@@ -3,7 +3,7 @@ export function HeroCamp() {
         <main className="h-screen relative flex flex-col justify-center items-center text-center px-4">
             {/* VIDEO BACKGROUND */}
             <video
-                src="/videos/acampaIA.mp4"
+                src="/videos/hero-acampa-completo-AI.WebM"
                 className="absolute inset-0 w-full h-full object-cover"
                 autoPlay
                 loop
